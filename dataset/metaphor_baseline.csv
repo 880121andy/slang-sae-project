@@ -1,0 +1,626 @@
+normal,metaphorical,literal_segments,metaphor_segments,literal_positions,metaphor_positions,num_differences
+My soul was a complete mess and she was the cause of it.,My soul was a lampless sea and she was the tempest.,a complete mess | the cause of it,a lampless sea | the tempest,"[(4, 6), (10, 13)]","[(4, 6), (10, 11)]",2
+The heavy rain made channels in the soil.,The heavy rain guttered the soil.,made channels in the soil,guttered the soil,"[(4, 8)]","[(4, 6)]",1
+he was feeling very depressed.,he was feeling down hurt and sad.,very depressed,down hurt and sad,"[(4, 5)]","[(4, 7)]",1
+The republicans are proposing the idea of a tax reform.,The republicans are floating the idea of a tax reform.,proposing the idea of a tax reform,floating the idea of a tax reform,"[(4, 10)]","[(4, 10)]",1
+the news was revealed publicly despite his secrecy,The news leaked out despite his secrecy.,was revealed publicly despite his secrecy,leaked out despite his secrecy,"[(3, 8)]","[(3, 7)]",1
+"‘ We 've had more paperwork , not less , since the trust took over , ’ Buzz said harshly .","‘ We 've had more paperwork , not less , since the trust took over , ’ Buzz said tartly .",harshly,tartly,"[(20, 20)]","[(20, 20)]",1
+He crushed remorse and pushed down despair.,He crushed remorse and sunk down despair.,pushed down despair,sunk down despair,"[(5, 7)]","[(5, 7)]",1
+"Berry 's songs are plausible representations of rock'n'roll rebellion or , at any rate , youthful hedonism .","Berry 's songs are plausible emblems of rock'n'roll rebellion or , at any rate , youthful hedonism .",representations of rock'n'roll rebellion,emblems of rock'n'roll rebellion,"[(6, 9)]","[(6, 9)]",1
+The critics praised the broadway production.,The critics paid tribute to this broadway production.,praised the broadway production,paid tribute to this broadway production,"[(3, 6)]","[(3, 8)]",1
+I don't approve of joke dealing with  political issues; I have seen too many of them get elected.,I don't approve of political jokes; I have seen too many of them get elected.,joke dealing with political issues,political jokes,"[(5, 9)]","[(5, 6)]",1
+The old house was gloomy and the guy who bought it made a lot of changes so now it is livable again.,He breathed new life into the dilapidated house.,the guy who bought it made a lot of changes so now it is livable again,He breathed new life into the dilapidated house,"[(7, 22)]","[(1, 8)]",1
+The leaves blow in the wind.,The wind whips through the leaves.,blow in the wind,whips through the leaves,"[(3, 6)]","[(3, 6)]",1
+The rule of ‘Grievous Bodily Harm’ is really too wide as it involves murder.,Does the ‘ grievous bodily harm ’ rule extend the definition of murder too far ?,The rule of ‘Grievous Bodily | is really too wide as it involves murder,Does the ‘ grievous bodily | rule extend the definition of murder too far,"[(1, 5), (7, 14)]","[(1, 5), (7, 16)]",2
+My lawyer is a ruthless human being.,My lawyer is a shark.,a ruthless human being,a shark,"[(4, 7)]","[(4, 5)]",1
+Draupadi's eyes were beautiful and so bright.,Draupadi's eyes were diamonds.,beautiful and so bright,diamonds,"[(4, 7)]","[(4, 4)]",1
+"Jealous of the applause they made for him ,","Jealous of the applause they  gave  him ,",made for him,gave him,"[(6, 8)]","[(6, 7)]",1
+The economical crisis was the cause of the war.,The roots of the war were in the economical crisis.,the cause of the war,The roots of the war,"[(5, 9)]","[(1, 5)]",1
+I tried toconvince them to be friends.,I tried to patch things over between them.,toconvince them to be friends,to patch things over between them,"[(3, 7)]","[(3, 8)]",1
+They had to budget things out until the Duke arrived.,They had to ration things out until the Duke arrived.,budget things out until the Duke arrived,ration things out until the Duke arrived,"[(4, 10)]","[(4, 10)]",1
+He  had a lot of stories to tell.,He had a full bag of memories to unload.,a lot of stories to tell,a full bag of memories to unload,"[(3, 8)]","[(3, 9)]",1
+He was involved in a laughing fit.,He was caught in a laughing fit.,involved in a laughing fit,caught in a laughing fit,"[(3, 7)]","[(3, 7)]",1
+"Joanna, you disagree? Okay, tell me why!","Joanna, you disagree? Okay, shoot!",tell me why,shoot,"[(5, 7)]","[(5, 5)]",1
+The father reached out to his son and smacked him with his hand.,The father flicked him with his hand.,reached out to his son and smacked him with his hand,flicked him with his hand,"[(3, 13)]","[(3, 7)]",1
+The difference between two theories completely vanish.,The distinction between the two theories disintegrates.,The difference between two theories completely vanish,The distinction between the two theories disintegrates,"[(1, 7)]","[(1, 7)]",1
+The knocking on the door was really persuasive and persistent.,The roaring on the door was more assertive now.,The knocking on the door was | really persuasive and persistent,The roaring on the door was | more assertive now,"[(1, 6), (7, 10)]","[(1, 6), (7, 9)]",2
+I was really agonizing over this decision for years.,I wrestled with this decision for years.,was really agonizing over this decision for years,wrestled with this decision for years,"[(2, 9)]","[(2, 7)]",1
+I tried solving the problem as soon as i got out of bed.,I attacked the problem as soon as i got out of bed.,tried solving the problem as soon as i got out of bed,attacked the problem as soon as i got out of bed,"[(2, 13)]","[(2, 12)]",1
+Thinking about how the problem originated is essential.,I think we should think about the roots of the problem.,originated is essential,I think we should think,"[(6, 8)]","[(1, 5)]",1
+She wore a bright yellow dress on that day.,She was sporting yellow that day.,wore a bright yellow dress on that day,was sporting yellow that day,"[(2, 9)]","[(2, 6)]",1
+The bus gradually came to a stop on the road.,The bus drizzled down the road.,gradually came to a stop on the road,drizzled down the road,"[(3, 10)]","[(3, 6)]",1
+My head was in the middle of a triangle made by her neck and both her shoulders.,My head dwelled in the crook of her neck.,a triangle made by her neck,dwelled,"[(8, 13)]","[(3, 3)]",1
+The press is sronger than weapons.,The pen is mightier than the sword.,The press is sronger than weapons,The pen is mightier than the sword,"[(1, 6)]","[(1, 7)]",1
+As the looks they gave her.,"At the looks they  cast  upon her ,",As the looks they | gave her,At the looks they | cast upon her,"[(1, 4), (5, 6)]","[(1, 4), (5, 8)]",2
+My friend was so scared that he became pale and speechless after the violent storm.,When I looked at my friend after the storm he was a ghost.,became pale and speechless,When I looked at my friend,"[(8, 11)]","[(1, 6)]",1
+The measures which were announced have affected the economy.,The new measures jostled the economy.,The measures which were announced have affected the economy,The new measures jostled the economy,"[(1, 9)]","[(1, 6)]",1
+I've reached my limit of patience.,I've reached my boiling point.,my limit of patience,my boiling point,"[(3, 6)]","[(3, 5)]",1
+Such an excessively silent night.,When the noiseless night  descended.,Such an excessively silent night,When the noiseless night,"[(1, 5)]","[(1, 4)]",1
+He knew how to write down something nice and pleasant.,He knew how to write sweet words.,down something nice and pleasant,sweet words,"[(6, 10)]","[(6, 7)]",1
+Stock prices are increasing more and more.,Stock prices are growing higher.,increasing more and more,growing higher,"[(4, 7)]","[(4, 5)]",1
+Alexander was super excited and his mood improved.,Alexander's spirits rose.,Alexander was super excited and his mood improved,Alexander's spirits rose,"[(1, 8)]","[(1, 3)]",1
+"On the lawn, he applied fertilizer.",He lathered fertilizer over the lawn.,applied fertilizer,lathered fertilizer,"[(5, 6)]","[(2, 3)]",1
+"Since once they reach the ground, humans just forget about it.","As they strike the ground, they are effaced.",humans just forget about it,are effaced,"[(7, 11)]","[(7, 8)]",1
+He got paddled by his thoughts and now he is suffering.,"For his thoughts as paddles  served  him ,",and now he is suffering,as paddles served him,"[(7, 11)]","[(4, 7)]",1
+Some nice results became apparent from the study.,Some nice results emerged from the study.,became apparent from the study,emerged from the study,"[(4, 8)]","[(4, 7)]",1
+The crisis has made life almost unbearable.,With the crisis the bubble exploded.,has made life almost unbearable,the bubble exploded,"[(3, 7)]","[(4, 6)]",1
+ The future because it looks very bright.,The future looks very promising.,because it looks very bright,looks very promising,"[(3, 7)]","[(3, 5)]",1
+For they have the ability to help each other because they listen to each other's advice.,"For they  kept  each other 's counsel ,",have the ability to help each other,s counsel,"[(3, 9)]","[(6, 7)]",1
+Whom fate has met with a weight of woes.,Whom fate has slapped with a weight of woes.,met with a weight of woes,slapped with a weight of woes,"[(4, 9)]","[(4, 9)]",1
+The spasm convulses her facial muscles.,The spasm twists her facial muscles.,convulses her facial muscles,twists her facial muscles,"[(3, 6)]","[(3, 6)]",1
+You have to deal with the very things that scare you to overcome your fears.,You have to head straight into your fears to win them.,deal with the very things that scare you,head straight into your fears,"[(4, 11)]","[(4, 8)]",1
+Their language intends to cause us to believe them.,Their language inclines us to believe them.,intends to cause us to believe them,inclines us to believe them,"[(3, 9)]","[(3, 7)]",1
+And the song this shape reminded one of.,And the song this shape  suggested.,reminded one of,suggested,"[(6, 8)]","[(6, 6)]",1
+"I wanted to get money, but the ATM did not work.","I wanted to get money, but the ATM froze.",did not work,froze,"[(9, 11)]","[(9, 9)]",1
+He crushed remorse and pushed down despair.,He crushed remorse and stifled down despair.,pushed down despair,stifled down despair,"[(5, 7)]","[(5, 7)]",1
+The cigarettes affected his health.,The cigarettes rained on his health.,affected his health,rained on his health,"[(3, 5)]","[(3, 6)]",1
+There is no golden light surrounded the red brick house today.,No golden light bathed the red brick of the house .,house today,of the house,"[(10, 11)]","[(8, 10)]",1
+"The house was so dark, silent and dreary.",The house was a tomb.,"so dark, silent and dreary",a tomb,"[(4, 8)]","[(4, 5)]",1
+She is living in a confused state.,She is fishing in troubled waters.,living in a confused state,fishing in troubled waters,"[(3, 7)]","[(3, 6)]",1
+I will never even think of reading other people's mail since it is so unethical.,I won't stoop to reading other people's mail.,will never even think,won't stoop,"[(2, 5)]","[(2, 3)]",1
+ The train horn  ruin the peaceful environment.,The train horn disemboweled the peace.,ruin the peaceful environment,disemboweled the peace,"[(4, 7)]","[(4, 6)]",1
+This was conveniently summarized briefly in the first try .,This was conveniently encapsulated in the first try .,summarized briefly in the first try,encapsulated in the first try,"[(4, 9)]","[(4, 8)]",1
+Hillary denied the accusations and acted like she didn't even hear them.,Hillary brushed aside the accusations.,and acted like she didn't even hear them,brushed aside the accusations,"[(5, 12)]","[(2, 5)]",1
+The bullet stabbed her chest.,The bullet snuck into her chest.,stabbed her chest,snuck into her chest,"[(3, 5)]","[(3, 6)]",1
+Her eyes were really tiny and bright.,Her eyes were fireflies.,really tiny and bright,fireflies,"[(4, 7)]","[(4, 4)]",1
+She teased him and diminished his ego with her words.,She cut him down with her words.,teased him and diminished his ego with her words,cut him down with her words,"[(2, 10)]","[(2, 7)]",1
+The mountain was entirely covered with snow.,The mountain was blanketed with snow.,entirely covered with snow,blanketed with snow,"[(4, 7)]","[(4, 6)]",1
+The change really begin back in 1943.,The seeds of change were planted in 1943.,The change really begin back in 1943,The seeds of change were planted in 1943,"[(1, 7)]","[(1, 8)]",1
+"Even when the situation was at its worst, we still kept our hope high.",In the worst of times we looked at hope  shining in the dark.,still kept our hope,of times we,"[(10, 13)]","[(4, 6)]",1
+The news were revealed to the paper.,The news were leaked to the paper.,revealed to the paper,leaked to the paper,"[(4, 7)]","[(4, 7)]",1
+Which horse are you betting  on.,Which horse are you depending  on.,betting on,depending on,"[(5, 6)]","[(5, 6)]",1
+"Recently , of course , there has been an added dimension — part given excessive and meaningless words by media and politicians , part real : drugs .","Recently , of course , there has been an added dimension — part media-and-politician inflated , part real : drugs .",given excessive and meaningless words by media and politicians,media-and-politician inflated,"[(14, 22)]","[(14, 15)]",1
+Events like that could totally mess up the balance of power between countries.,These events could shape the balance of power.,Events like that could totally mess up,These events could shape,"[(1, 7)]","[(1, 4)]",1
+"For her, all the men to go crazy.",She swallowed all the men's hearts.,the men to go crazy,She swallowed all the,"[(4, 8)]","[(1, 4)]",1
+She openly give her point of view on the less fortunate's problem.,She aired her opinions on welfare.,the less fortunate's problem,aired her opinions on,"[(9, 12)]","[(2, 5)]",1
+His declarations excited the community.,His declarations sparked a fire in the community.,excited the community,sparked a fire in the community,"[(3, 5)]","[(3, 8)]",1
+So many people were killed in the war.,The war devoured so many lives.,people were killed in the war,devoured,"[(3, 8)]","[(3, 3)]",1
+"Like a mother covering her infant child, snow covered the earth.",The snow blanketed the earth like a mother would her infant child.,snow covered the earth,The snow blanketed the earth,"[(8, 11)]","[(1, 5)]",1
+Such beauty and unique wonderful effect in the meadows of blossoms .,"All the meadows  wave  with blossoms ,",Such beauty and unique wonderful effect in the meadows,wave with blossoms,"[(1, 9)]","[(4, 6)]",1
+The music that played in the background.,The music frolicked in the background.,that played in the background,frolicked in the background,"[(3, 7)]","[(3, 6)]",1
+She knew she was making a total fool of herself.,She knew she was burning in shame.,making a total fool of herself,burning in shame,"[(5, 10)]","[(5, 7)]",1
+He swung the war-club and broke the door.,With his war-club smote the doorways.,and broke the,With his war-club,"[(5, 7)]","[(1, 3)]",1
+The ex-slave died shortly after she got freedom.,The ex-slave tasted freedom shortly before she died.,died shortly after she got freedom,tasted freedom shortly before she died,"[(3, 8)]","[(3, 8)]",1
+There's a red fireball burning among the clouds.,A flame ablaze that sprints amid the skies.,a red fireball burning among the,A flame ablaze that sprints amid the,"[(2, 7)]","[(1, 7)]",1
+The politician harmed his rival politically.,The politician clawed his rival.,harmed his rival politically,clawed his rival,"[(3, 6)]","[(3, 5)]",1
+We could painfully feel each blade of grass because we were barefooted.,Each blade of grass was a bayonet pointed firmly at our bare feet.,because we were barefooted,a bayonet pointed firmly at our bare feet,"[(9, 12)]","[(6, 13)]",1
+It's always time-consuming to see justice prevail on injustice.,The wheels of justice turn slowly.,It's always time-consuming to see justice,The wheels of justice,"[(1, 6)]","[(1, 4)]",1
+The moon reflects its face onto the surface of the lake.,The moon betrayed back at itself from the lake’s surface.,reflects its face onto the surface of the lake,betrayed back at itself from the lake’s surface,"[(3, 11)]","[(3, 10)]",1
+If you have a high number of minor problems you cannot focus on what matters,If you are drowning in a sea of minor problems you cannot focus on what matters.,have a high number of minor problems you cannot focus on what matters,are drowning in a sea of minor problems you cannot focus on what matters,"[(3, 15)]","[(3, 16)]",1
+David looked at Paul very angrily when Paul invited his new girlfriend to dance.,David’s eyes were like daggers at Paul when Paul invited his new girlfriend to dance.,very angrily,David’s eyes were like daggers,"[(5, 6)]","[(1, 5)]",1
+The value of a dollar has reduced so much now by inflation.,The dollar has been dragged by inflation.,The value of a dollar has reduced so much now by inflation,The dollar has been dragged by inflation,"[(1, 12)]","[(1, 7)]",1
+Everything is back to the way it was before.,The wheel has come full circle.,Everything is back to the,The wheel has come full circle,"[(1, 5)]","[(1, 6)]",1
+The huge waves really hit the small boat and sank it just before it docked.,The huge waves attacked the small boat and it sank shortly thereafter.,really hit the small boat | sank it just before it docked,attacked the small boat | it sank shortly thereafter,"[(4, 8), (10, 15)]","[(4, 7), (9, 12)]",2
+The residents of this village were devoted in belief to catholicism .,The residents of this village adhered to catholicism.,were devoted in belief to catholicism,adhered to catholicism,"[(6, 12)]","[(6, 8)]",1
+You might have assumed this was the police scaring with a false show of strength and bullying .,You might have assumed this was the police bluffing and bullying .,scaring with a false show of strength,bluffing,"[(9, 15)]","[(9, 9)]",1
+"Let puritans and pessimists damn , disapprove or dismiss these strong desires ; that is their loss .","Let puritans and pessimists damn , disapprove or dismiss these appetites ; that is their loss .",these strong desires,these appetites,"[(10, 12)]","[(10, 11)]",1
+He did not want to acknowledge reality and kept denying it.,He was living in his dream world  shutting his eyes in front of reality.,did not want to acknowledge reality,was living in his dream world shutting his eyes in front of reality,"[(2, 7)]","[(2, 14)]",1
+It was so difficult to live in a camp that it made him tired.,Life in the camp drained him.,It was so difficult to live,Life,"[(1, 6)]","[(1, 1)]",1
+Earthquake hath continued deeply its tale on them.,Earthquake hath swam deeply its tale on them.,continued deeply its tale on them,swam deeply its tale on them,"[(3, 8)]","[(3, 8)]",1
+Adrenaline flows through him powerfully.,Adrenaline surges through him powerfully.,flows through him powerfully,surges through him powerfully,"[(2, 5)]","[(2, 5)]",1
+They had to sort things out before the duke showed up.,They had to pigeonhole things out until the Duke arrived.,sort things out before the duke showed up,pigeonhole things out until the Duke arrived,"[(4, 11)]","[(4, 10)]",1
+They never said that they are germans.,they never mentioned being germans.,said that they are germans,mentioned being germans,"[(3, 7)]","[(3, 5)]",1
+His devotion to his sick wife caused him to have a lonely existence.,His devotion to his sick wife condemned him to a lonely existence.,caused him to have a lonely existence,condemned him to a lonely existence,"[(7, 13)]","[(7, 12)]",1
+The scream tore through the night.,The scream pierced the night.,tore through the night,pierced the night,"[(3, 6)]","[(3, 5)]",1
+The snow was so deep and thick it covered the earth like a mother would her infant child.,The snow swaddled the earth like a mother would her infant child.,was so deep and thick it covered the earth like a mother would her infant child,swaddled the earth like a mother would her infant child,"[(3, 18)]","[(3, 12)]",1
+He lay before the gathering sun.,He lay before the beaming sun.,the gathering sun,the beaming sun,"[(4, 6)]","[(4, 6)]",1
+After venting his anger he sat down very quietly.,After letting off his rage he sat down like a lamb.,venting his anger he sat down | very quietly,letting off his rage he sat down | like a lamb,"[(2, 7), (8, 9)]","[(2, 8), (9, 11)]",2
+There was a mass genocide perpetrated by the force on the civilians.,The force erased the civilians in 1915.,There was a mass genocide perpetrated by the force,in 1915,"[(1, 9)]","[(6, 7)]",1
+Alex broke the process and disclosed it.,Alex leaked the process.,broke the process and disclosed it,leaked the process,"[(2, 7)]","[(2, 4)]",1
+Bill tore apart every weak point in Rob's argument.,Bill attacked every weak point in Rob's argument.,tore apart every weak point in Rob's argument,attacked every weak point in Rob's argument,"[(2, 9)]","[(2, 8)]",1
+She said that infidelity was apparent to her.,She said that she could smell infidelity from a mile.,that infidelity was apparent to her,that she could smell infidelity from a mile,"[(3, 8)]","[(3, 10)]",1
+He is grinning revealing his large teeth.,He is grinning like an ape.,revealing his large teeth,like an ape,"[(4, 7)]","[(4, 6)]",1
+He got an illness which made him quickly die.,He was slapped with a terrible illness that killed him quickly.,got an illness which made him quickly die,was slapped with a terrible illness that killed him quickly,"[(2, 9)]","[(2, 11)]",1
+The sales tax is incorporated into the state income tax .,The sales tax is absorbed into the state income tax.,incorporated,absorbed,"[(5, 5)]","[(5, 5)]",1
+"Despite his rival's efforts, the politician won.",The politician toppled his rival.,his rival's efforts,toppled his,"[(2, 4)]","[(3, 4)]",1
+The effects of these events could lead to chaos and anarchy.,These events could tilt the balance of power.,lead to chaos and anarchy,tilt the balance of power,"[(7, 11)]","[(4, 8)]",1
+A fly landed on the empty and crawled across it.,"A fly landed on the empty , staring vizor , and crawled across it .",A fly landed on the empty and crawled across it,staring vizor,"[(1, 10)]","[(8, 9)]",1
+The Senator criticized the administration in his speech on Friday.,The Senator attacked the administration in his speech on Friday.,criticized the administration in his speech on Friday,attacked the administration in his speech on Friday,"[(3, 10)]","[(3, 10)]",1
+Andrew and Bill were very witty and had very funny jokes.,"If wits were pins, Andrew and Bill would be veritable hedgehogs.",very witty and had very funny jokes,would be veritable hedgehogs,"[(5, 11)]","[(8, 11)]",1
+The sudden fame increased her ego.,The sudden fame kindled her ego.,increased her ego,kindled her ego,"[(4, 6)]","[(4, 6)]",1
+It's hurtful when a breakup makes you feel lonely and sad.,A break up can leave you with a broken heart.,feel lonely and sad,A break up can leave you,"[(8, 11)]","[(1, 6)]",1
+We totally thrashed them from the first minute to the last and left no breathing space.,We rattled them from the first minute and did n't give them any breathing space .,totally thrashed them from the first minute | to the last and left no breathing space,rattled them from the first minute | and did n't give them any breathing space,"[(2, 8), (9, 16)]","[(2, 7), (8, 16)]",2
+Don't change my words.,Don't remix my words.,change my words,remix my words,"[(2, 4)]","[(2, 4)]",1
+Job candidates were screened quickly.,They breezed through the job candidates.,were screened quickly,They breezed through the job candidates,"[(3, 5)]","[(1, 6)]",1
+Arjun was feeling a strong affection.,Arjun was in love.,feeling a strong affection,in love,"[(3, 6)]","[(3, 4)]",1
+Duryodhan never found peace because of his utter confusion.,"Duryodhan's life had a superb cast, but he couldn't figure out the plot.",Duryodhan never found peace because of his utter confusion,"Duryodhan's life had a superb cast, but he couldn't figure out the plot","[(1, 9)]","[(1, 13)]",1
+The comedian's stand-up act brought down the house.,The comedian convulsed the crowd.,The comedian's stand-up act brought down the house,The comedian convulsed the crowd,"[(1, 8)]","[(1, 5)]",1
+Dimples formed in his cheeks.,Dimples burst forth in his cheeks.,formed in his cheeks,burst forth in his cheeks,"[(2, 5)]","[(2, 6)]",1
+Demand for the product increase when prices went down.,Sales were climbing after prices were lowered.,Demand for the product increase when prices,Sales were climbing after prices,"[(1, 7)]","[(1, 5)]",1
+Avon proceeds warily .,Avon treads warily .,proceeds warily,treads warily,"[(2, 3)]","[(2, 3)]",1
+The music builds to a crescendo.,The music swelled to a crescendo.,builds to a crescendo,swelled to a crescendo,"[(3, 6)]","[(3, 6)]",1
+There was an opportunity knocking at her door and she did not realize it.,She did not realize that opportunity was waltzing at her door.,There was an opportunity knocking at her door,that opportunity was waltzing at her door,"[(1, 8)]","[(5, 11)]",1
+The scream filled the night,The scream covered the night.,filled the night,covered the night,"[(3, 5)]","[(3, 5)]",1
+The panes of the windows were rattling whenever there is a strong wind.,The window panes were trembling as the wind blew through them.,rattling whenever there is a strong wind,blew through them,"[(7, 13)]","[(9, 11)]",1
+Her optimism gave me a new-found hope.,Her optimism flicked away these worries.,gave me a new-found hope,flicked away these worries,"[(3, 7)]","[(3, 6)]",1
+That my vengeance shall not affect him !.,That my vengeance shall not  reach  him ! .,affect him,reach him !,"[(6, 8)]","[(6, 9)]",1
+"With the help of alcohol, she overcame her problems.",She drowned her trouble in alcohol.,With the help of alcohol,her trouble in alcohol,"[(1, 5)]","[(3, 6)]",1
+The music was played in the background.,The music swelled in the background.,was played in the background,swelled in the background,"[(3, 7)]","[(3, 6)]",1
+I have to terminate the program.,I have to kill the program.,terminate the program,kill the program,"[(4, 6)]","[(4, 6)]",1
+The soldiers were extremely violent and threatening.,The soldiers were devils.,extremely violent and threatening,devils,"[(4, 7)]","[(4, 4)]",1
+That faint fragrance must be the product of a soft and cute smelling hair.,Of that faint fragrance spiraling from her soft hair.,must be the product of a soft and cute smelling,spiraling from her soft,"[(4, 13)]","[(5, 8)]",1
+As the ice is carried from rivers.,"As the ice is  swept  from rivers ,",carried from rivers,swept from rivers,"[(5, 7)]","[(5, 8)]",1
+The greedy businessman embezzled the company and Kited millions of dollars.,The businessman kited millions of dollars.,The greedy businessman embezzled the company and Kited millions of dollars,The businessman kited millions of dollars,"[(1, 11)]","[(1, 6)]",1
+The wildfire spread so fast through the forest to my amazement.,The wildfire leapt through the forest at an amazing speed.,spread so fast through the forest | to my amazement,leapt through the forest | at an amazing speed,"[(3, 8), (9, 11)]","[(3, 6), (7, 10)]",2
+We spent money on the education of our children.,We funneled money into the education of our children.,spent money on the education of our children,funneled money into the education of our children,"[(2, 9)]","[(2, 9)]",1
+The faculty meeting was ridiculous.,The faculty meeting was a comedy show.,ridiculous,a comedy show,"[(5, 5)]","[(5, 7)]",1
+The faculty meeting was chaotic and ridiculous.,The faculty meeting was a circus.,chaotic and ridiculous,a circus,"[(5, 7)]","[(5, 6)]",1
+"She had to manage her job, husband, and children.",She had to tend to her job and her children.,"manage her job, husband, and children",tend to her job and her children,"[(4, 9)]","[(4, 10)]",1
+Black desert covered in iron silences.,Black desert rained in iron silences.,covered in iron silences,rained in iron silences,"[(3, 6)]","[(3, 6)]",1
+Allister enjoys drinking Bordeaux wine on a regular basis.,Allister drinks Bordeaux often.,enjoys drinking Bordeaux wine on a regular basis,drinks Bordeaux often,"[(2, 9)]","[(2, 4)]",1
+Katie wasted her time and energy trying to get into college because she was delusional about her abilities.,Katie’s plan to get into college was a house of cards on a crooked table.,Katie wasted her time and energy trying to get into college | because she was delusional about her abilities,Katie’s plan to get into college | was a house of cards on a crooked table,"[(1, 11), (12, 18)]","[(1, 6), (7, 15)]",2
+The old tenant expressed mixed feelings in his speech.,The old tenant gave a bittersweet speech.,expressed mixed feelings in his speech,gave a bittersweet speech,"[(4, 9)]","[(4, 7)]",1
+She ends her boring lectures with a funny punchline.,She seals her lectures with joke.,ends her boring lectures with a funny punchline,seals her lectures with joke,"[(2, 9)]","[(2, 6)]",1
+The audience was running out of the theater.,People were bolting out of the theater.,The audience was running out,People were bolting out,"[(1, 5)]","[(1, 4)]",1
+Far above him things moved in the heavens.,"Far above him  swam  the heavens ,",things moved in the heavens,swam the heavens,"[(4, 8)]","[(4, 7)]",1
+"In the days long since past ,","In the days long since  departed  ,",past,departed,"[(6, 6)]","[(6, 6)]",1
+She thinks its funny to end her lecture with a joke.,She garnishes her lectures with joke.,thinks its funny to end her lecture with a joke,garnishes her lectures with joke,"[(2, 11)]","[(2, 6)]",1
+The senator made an unfair comment about the administration and its personnel.,The Senator dissed the administration in his speech on Friday.,made an unfair comment about the administration,in his speech on Friday,"[(3, 9)]","[(6, 10)]",1
+The taste of agony was overwhelming upon my tongue.,The taste of agony coated thick upon my tongue.,was overwhelming upon my tongue,coated thick upon my tongue,"[(5, 9)]","[(5, 9)]",1
+She tended to be loud when speaking into a microphone.,She tended to blast when speaking into a microphone.,be loud when speaking into a microphone,blast when speaking into a microphone,"[(4, 10)]","[(4, 9)]",1
+Travel became less appealing as she grew older.,Middle age minimized her appetite for travel.,became less appealing as she grew older,Middle age minimized her appetite for travel,"[(2, 8)]","[(1, 7)]",1
+She totally fell into the trap of her luxurious life.,She relaxed into the luxury of life.,totally fell into the trap of her luxurious life,relaxed into the luxury of life,"[(2, 10)]","[(2, 7)]",1
+The music goes on a really steep incline and then goes right down at the peak.,The music accumulates to a crescendo.,a really steep incline and then goes right down at the,accumulates to a,"[(5, 15)]","[(3, 5)]",1
+She pushed against the wall with all her strength.,She pressed against the wall with all her strength.,pushed against the wall with all her strength,pressed against the wall with all her strength,"[(2, 9)]","[(2, 9)]",1
+"Oh , and there 's one more thing you can be sure of , ’ he added sarcastically with a sharp tone in his voice.","Oh , and there 's one more thing you can be sure of , ’ he added sourly .",sarcastically with a sharp tone in his voice,sourly,"[(18, 25)]","[(18, 19)]",1
+The woman was feeling a kind of melancholy.,The woman had a blue feeling.,was feeling a kind of melancholy,had a blue feeling,"[(3, 8)]","[(3, 6)]",1
+"His heart in his chest suddenly and excitedly started pounding very rapidly,","And his heart within him  fluttered  ,",excitedly started pounding very rapidly,within him fluttered,"[(8, 12)]","[(4, 6)]",1
+He looked neither one way nor the other way but sat completely still.,He looked neither one way nor the other way but sat like a carved image.,completely still,like a carved image,"[(12, 13)]","[(12, 15)]",1
+"Sniffles, coughs, and colds develop in their breasts.","Sniffles, coughs, and colds buoyed in their breasts.",develop in their breasts,buoyed in their breasts,"[(5, 8)]","[(5, 8)]",1
+The market is being obstructed by these operations.,The market is being clogged by these operations.,obstructed by these operations,clogged by these operations,"[(5, 8)]","[(5, 8)]",1
+The chicken pasta has arrived and the customer is waiting for his check.,The chicken pasta is waiting for his check.,the customer,The chicken pasta,"[(7, 8)]","[(1, 3)]",1
+He is now deformed after contracting leprosy.,His body was weathered by leprosy.,He is now deformed after contracting leprosy,His body was weathered by leprosy,"[(1, 7)]","[(1, 6)]",1
+Authority needs legs to stand because without that it is useless.,"Authority is a chair, it needs legs to stand.",because without that it is useless,"a chair, it","[(6, 11)]","[(3, 5)]",1
+The children danced with joy,The children frolicked with joy.,danced with joy,frolicked with joy,"[(3, 5)]","[(3, 5)]",1
+He criticized me so bad that he brought out all my weaknesses.,He attacked every weak point in my argument.,criticized me so bad that he,attacked every weak point in my,"[(2, 7)]","[(2, 7)]",1
+A neat step-over by Rocastle sent Thomas hurtling in on goal but Rhodes moved sharply off his line to get in the way of the shot .,A neat step-over by Rocastle sent Thomas hurtling in on goal but Rhodes moved sharply off his line to smother the shot .,get in the way of the shot,smother the shot,"[(20, 26)]","[(20, 22)]",1
+Life is very difficult to understand and it poses many problems which needs to be solved.,Life is a foreign language: all men mispronounce it.”.,very difficult to understand and it poses many problems which needs to be solved,a foreign language: all men mispronounce it.”,"[(3, 16)]","[(3, 9)]",1
+So disasters occur not singly.,So disasters  come  not singly .,occur not singly,come not singly,"[(3, 5)]","[(3, 6)]",1
+He lay down in front of the rising sun.,He lay before the gathering sun.,down in front of the rising sun,before the gathering sun,"[(3, 9)]","[(3, 6)]",1
+"Fell , and could not improve their situation from weakness.","Fell , and could not  rise  from weakness ,",improve their situation from weakness,rise from weakness,"[(6, 10)]","[(6, 9)]",1
+He lived in a state of intense terror.,He lived in a state of deep terror.,intense terror,deep terror,"[(7, 8)]","[(7, 8)]",1
+Everything flowed to his glory.,Everything bowed to his glory.,flowed to his glory,bowed to his glory,"[(2, 5)]","[(2, 5)]",1
+Of the happy days that occurred afterward.,"Of the happy days that  followed  ,",that occurred afterward,that followed,"[(5, 7)]","[(5, 7)]",1
+New documents getting disclosed with such irresponsibility.,And now they were leaking all kinds of documents.,getting disclosed with such irresponsibility,And now they were leaking all kinds of documents,"[(3, 7)]","[(1, 9)]",1
+Till it acquired the form and features.,Till it took the form and features.,acquired the form,took the form,"[(3, 5)]","[(3, 5)]",1
+My heart beats a bit faster when he walks in the room.,My heart skips when he walks in the room.,beats a bit faster when he walks in the room,skips when he walks in the room,"[(3, 12)]","[(3, 9)]",1
+Her optimism actually made me believe in a brighter future.,Her optimism stole away these worries.,actually made me believe in a brighter future,stole away these worries,"[(3, 10)]","[(3, 6)]",1
+Floors were flooded with water.,Water galloped down all over the floor.,Floors were flooded with water,galloped down all over the floor,"[(1, 5)]","[(2, 7)]",1
+I had already insinuated the idea to her.,I had already planted the idea in her mind.,insinuated the idea to her,planted the idea in her mind,"[(4, 8)]","[(4, 9)]",1
+I want to live in in sunshine once again.,I want to grow in sunshine once again.,live in in sunshine once again,grow in sunshine once again,"[(4, 9)]","[(4, 8)]",1
+The path extended all the way to the top of the hill.,The path climbed all the way to the top of the hill.,extended all the way to the top of the hill,climbed all the way to the top of the hill,"[(3, 12)]","[(3, 12)]",1
+The rich man's heart was unemotional.,The rich man had a cold heart.,man's heart was unemotional,man had a cold heart,"[(3, 6)]","[(3, 7)]",1
+Sachin's truck needs petrol to run.,Sachin's truck drinks gasoline.,needs petrol to run,drinks gasoline,"[(3, 6)]","[(3, 4)]",1
+This occurrence went contrary to the generally held belief .,This fact clashed against the standard theories.,This occurrence went contrary to the generally held belief,This fact clashed against the standard theories,"[(1, 10)]","[(1, 7)]",1
+Oaths of homage are now obligatory that its enforcement was fiercely significant.,Oaths of homage fiercely succeeded.,are now obligatory that its enforcement was fiercely significant,fiercely succeeded,"[(4, 12)]","[(4, 5)]",1
+The dancer moved fluidly across the stage.,The dancer floated across the stage.,moved fluidly across the stage,floated across the stage,"[(3, 7)]","[(3, 6)]",1
+The iron in the tail of the animal was in a constat move.,The iron in the tail of the animal was a restless needle.,in a constat move,a restless needle,"[(10, 13)]","[(10, 12)]",1
+I've had it up to here with your emotional dramatics.,I have had enough of your melodrama.,it up to here with your,I have had,"[(3, 8)]","[(1, 3)]",1
+One of the most fearful thing for him was the fear that they might reveal everything about him.,He was worried they might spill everything about him.,One of the most fearful thing for him was,He was,"[(1, 9)]","[(1, 2)]",1
+The memory of that event will always be deeply added in her mind.,The event engraved itself into her memory.,will always be deeply added in her,engraved itself into her memory,"[(6, 12)]","[(3, 7)]",1
+The car crushed a toy.,The car pummeled the toy.,crushed a toy,pummeled the toy,"[(3, 5)]","[(3, 5)]",1
+"In addition to her job, she had to take care of her children.",She had to juggle her job and her children.,In addition to her job,juggle her job,"[(1, 5)]","[(4, 6)]",1
+She owned all the men's hearts at that party.,She Seized all the men's hearts.,at that party,Seized,"[(7, 9)]","[(2, 2)]",1
+One should set goals that are in line with one's abilities.,Harmonize one's goals with one's abilities.,that are in line,Harmonize one's goals,"[(5, 8)]","[(1, 3)]",1
+The sky glowed with rosy splendor.,The sky flushed with rosy splendor.,glowed with rosy splendor,flushed with rosy splendor,"[(3, 6)]","[(3, 6)]",1
+The woman started laughing in a nice and pleasant way.,The woman burst in a warm laughter.,started laughing in a nice and pleasant way,burst in a warm laughter,"[(3, 10)]","[(3, 7)]",1
+"The sale of the house was delayed, which was not unexpected at all.","£45,000 was the asking price and I was not surprised that the sale , so to speak , hung fire .",unexpected at all,the asking price and I was not,"[(11, 13)]","[(3, 9)]",1
+Death is knocking on my door.,Death is flowing at the door.,knocking on my door,flowing at the door,"[(3, 6)]","[(3, 6)]",1
+we were completely surrounded by a large prairie.,we were sinking in an ocean of grass.,completely surrounded by a large prairie,sinking in an ocean of grass,"[(3, 8)]","[(3, 8)]",1
+Are you going out with Michael again or are you returning back to Jennifer?,back on jennifer or are you going out with michael ?,again or are you returning back to Jennifer,back on jennifer,"[(7, 14)]","[(1, 3)]",1
+My life started thirty years ago.,I embarked on life thirty years ago.,My life,I embarked on life thirty years ago,"[(1, 2)]","[(1, 7)]",1
+The talk at the end of a meeting completed the meeting .,The speech crowned the meeting.,the end of a meeting,The speech crowned the meeting,"[(4, 8)]","[(1, 5)]",1
+Actions are more important than words.,Actions speak louder than words.,are more important than words,speak louder than words,"[(2, 6)]","[(2, 5)]",1
+Prices are getting increasingly expensive .,Prices climbed steeply.,are getting increasingly expensive,climbed steeply,"[(2, 6)]","[(2, 3)]",1
+"You disagree? Okay, tell me why!","You disagree? Okay, shoot!",tell me why,shoot,"[(4, 6)]","[(4, 4)]",1
+"During the boiling process, the teapot shook.",The teapot quivered as the water boiled.,the boiling process,the water boiled,"[(2, 4)]","[(5, 7)]",1
+He knows exactly what the needs of the business are and then make a plan for the cure to it.,"He finds out what the needs of the business are , and prescribes the cure .",then make a plan for the cure,finds out what the needs,"[(12, 18)]","[(2, 6)]",1
+Not a change happened to their features.,Not a change  came  o'er their features .,happened to their features,came o'er their features,"[(4, 7)]","[(4, 8)]",1
+His playing established him as a Romantic.,His playing ensconced him as a Romantic.,established him as a Romantic,ensconced him as a Romantic,"[(3, 7)]","[(3, 7)]",1
+It was disappointing to find out that my objections were put aside.,He swept aside my objections.,It was disappointing to find out that my objections,He swept aside my objections,"[(1, 9)]","[(1, 5)]",1
+There were negative elements in his past things he didn't like to remember.,There were dark corners in his past things he didn't like to remember.,negative elements in his past things he didn't like to remember,dark corners in his past things he didn't like to remember,"[(3, 13)]","[(3, 13)]",1
+Oaths of homage are now obligatory that its enforcement was fiercely significant.,Oaths of homage fiercely won.,are now obligatory that its enforcement was fiercely significant,fiercely won,"[(4, 12)]","[(4, 5)]",1
+The creature in the middle of the sea was huge.,The animal in the middle of the sea was a mountain.,The creature in the middle of the sea was | huge,The animal in the middle of the sea was | a mountain,"[(1, 9), (10, 10)]","[(1, 9), (10, 11)]",2
+"During the government's conversion of the law, the entire code was created.",The government flipped the entire law into a code.,the government's conversion of the law,The government flipped the entire law,"[(2, 7)]","[(1, 6)]",1
+Primal Scream Not a name which would lead you to expect self-absorbed acoustic pieces of music .,Primal Scream Not a name which would lead you to expect self-absorbed acoustic doodlings .,pieces of music,doodlings,"[(14, 16)]","[(14, 14)]",1
+She wore a bright yellow dress on that day.,She was dolled up yellow that day.,wore a bright yellow dress on that day,was dolled up yellow that day,"[(2, 9)]","[(2, 7)]",1
+To put a hold on terrorism the American presidents need to not only monitor the big terrorists but also the groups who have possibly come out of them.,"In the war on terror, American presidents must monitor not only the main terrorist organizations but their offshoots around the world as well.",the groups who have possibly come out of them,the main terrorist organizations,"[(20, 28)]","[(12, 15)]",1
+For all time to pass in this quickly and happily .,"That the time may  pass  more gayly ,",in this quickly and happily,more gayly,"[(6, 10)]","[(6, 7)]",1
+You'd better keep away from Bill today because he's angry and sad.,You'd better keep away from Bill today because he's in a black mood.,angry and sad,in a black mood,"[(10, 12)]","[(10, 13)]",1
+The meat was cooked in a fatty gravy.,The meat was lathered in a fatty gravy.,cooked in a fatty gravy,lathered in a fatty gravy,"[(4, 8)]","[(4, 8)]",1
+My  alarm woke me up at the morning.,My alarm roared at me this morning.,woke me up at the morning,roared at me this morning,"[(3, 8)]","[(3, 7)]",1
+Fearing that he would lose strength.,"Fearing lest his strength should  fail  him ,",that he would lose strength,lest his strength should fail him,"[(2, 6)]","[(2, 8)]",1
+Don't eat soo fast your food!,Don't bolt your food!.,eat soo fast your food,bolt your food,"[(2, 6)]","[(2, 4)]",1
+"As it was late at night, I was lying in bed.",In the depth of the night I sprawl in the bed.,As it was late at night,the depth of the night I,"[(1, 6)]","[(2, 7)]",1
+his mind attempted to make the connection.,His mind groped to make the connection.,attempted to make the connection,groped to make the connection,"[(3, 7)]","[(3, 7)]",1
+For the end of the year  I was completely fatigued.,For the end of the year  I was burned and broken.,completely fatigued,burned and broken,"[(9, 10)]","[(9, 11)]",1
+Ask the person on table 12 whether he wants water.,Ask table 12 whether he wants water.,the person on table 12,table 12,"[(2, 6)]","[(2, 3)]",1
+The news just got you all hyped up and angry.,The news inflamed your temper.,just got you all hyped up and angry,inflamed your temper,"[(3, 10)]","[(3, 5)]",1
+Calm down - there's no need to get angry about it.,Calm down - there's no need to get all steamed up about it.,angry about it,all steamed up about it,"[(9, 11)]","[(9, 13)]",1
+Could not experience your heart of passion.,"Could not  see  your heart of passion ,",experience,see,"[(3, 3)]","[(3, 3)]",1
+The bridge is blocking the river.,The bridge hovers over the river.,is blocking the river,hovers over the river,"[(3, 6)]","[(3, 6)]",1
+We need to continuously keep on learning in our lifetime.,"’Life' wrote a friend of mine, 'is a public performance on the violin, in which you must learn the instrument as you go along.”",We need to continuously keep,"Life' wrote a friend of mine, 'is a public performance","[(1, 5)]","[(1, 10)]",1
+The approaching car's headlights reflected at me.,The approaching car's headlights glared at me.,reflected at me,glared at me,"[(5, 7)]","[(5, 7)]",1
+ The ocean contains an extremely huge sea monster like Leviathan.,The Leviathan in the ocean is a moving country.,contains an extremely huge sea monster like Leviathan,is a moving country,"[(3, 10)]","[(6, 9)]",1
+The avalanche destroyed anything standing in its way.,The avalanche polvarized  anything standing in its way.,destroyed anything standing in its way,polvarized anything standing in its way,"[(3, 8)]","[(3, 8)]",1
+Ramesh's parents surely felt that he was an intelligent boy.,Ramesh's parents felt that he was a bright boy.,an intelligent,a bright,"[(8, 9)]","[(7, 8)]",1
+The taste of agony was overwhelming upon my tongue.,The taste of agony laid thick upon my tongue.,was overwhelming upon my tongue,laid thick upon my tongue,"[(5, 9)]","[(5, 9)]",1
+At his touch he experienced new courage,At his touch he  felt  new courage.,experienced new courage,felt new courage,"[(5, 7)]","[(5, 7)]",1
+The wind was blowing strongly through the window panes,The window panes were shaking as the wind blew through them.,The wind was blowing strongly,shaking as the wind blew through them,"[(1, 5)]","[(5, 11)]",1
+"So all rest are never fulfilled, hope always ends in despair.","And rest can never dwell , hope never  comes.",always ends in despair,can never,"[(8, 11)]","[(3, 4)]",1
+Monty was a rich person and felt like he was in a luxurious paradise.,Monty swam in a sea of diamonds.,a rich person and felt like he was,a sea of diamonds,"[(3, 10)]","[(4, 7)]",1
+John was not at the same standard as his class mates.,John loomed behind his class mates.,was not at the same standard as his class mates,loomed behind his class mates,"[(2, 11)]","[(2, 6)]",1
+Because of so much pressure the government succumbed and did what the military ordered them to do.,The government bowed to the military pressure.,succumbed and did what the military,bowed,"[(8, 13)]","[(3, 3)]",1
+War was a terrible thing.,War was a nightmare.,a terrible thing,a nightmare,"[(3, 5)]","[(3, 4)]",1
+The approaching car's headlights blinded  me.,The approaching car's headlights looked back at me.,blinded me,looked back at me,"[(5, 6)]","[(5, 8)]",1
+The after-effect of wine being him looking more laid back.,"After a glass of wine, he unfurled up a bit.",being him looking more laid back,he unfurled up a bit,"[(5, 10)]","[(6, 10)]",1
+To guts the sob of my agony.,To ravage the sob of my agony.,guts the sob of my agony,ravage the sob of my agony,"[(2, 7)]","[(2, 7)]",1
+They win their parents over with an optimistic vision of the world which is decidedly reassuring .,They win their parents over with a rose-tinted vision of the world which is decidedly reassuring .,an optimistic vision of the world which is decidedly reassuring,a rose-tinted vision of the world which is decidedly reassuring,"[(7, 16)]","[(7, 16)]",1
+You did care a lot about what someone else said.,You were hanging yourself on someone else 's words.,did care a lot about what someone else said,were hanging yourself on someone else 's words,"[(2, 10)]","[(2, 9)]",1
+The clouds were circling each other in the sky.,The clouds waltzed each other around in the sky.,were circling each other in the sky,waltzed each other around in the sky,"[(3, 9)]","[(3, 9)]",1
+It may lead you to get arrested.,This may land you in jail.,to get arrested,in jail,"[(5, 7)]","[(5, 6)]",1
+"She was in her middle age, therefore she lost her zest for adventure and hence travelling.",Middle age cut down her appetite for travel.,adventure and hence travelling,cut down her appetite for,"[(13, 16)]","[(3, 7)]",1
+Murder begins the novel.,The novel sprouts with a murder.,begins the novel,sprouts with a murder,"[(2, 4)]","[(3, 6)]",1
+He discarded all of my arguments.,He shot down all my arguments.,discarded all of my arguments,shot down all my arguments,"[(2, 6)]","[(2, 6)]",1
+The entire conversation shifted to politics.,The conversation gravitated towards politics.,The entire conversation shifted to politics,The conversation gravitated towards politics,"[(1, 6)]","[(1, 5)]",1
+Harmless struck the heavy war-club .,Harmless  fell  the heavy war-club .,struck the heavy war-club,fell the heavy war-club,"[(2, 5)]","[(2, 5)]",1
+"When I try to object, he never listens to me and just put aside what I have to say.",He pushed aside my objections.,never listens to me and just put aside,my objections,"[(7, 14)]","[(4, 5)]",1
+The Stock Market has been rising lately .,The stock market drifted upward.,has been rising lately,drifted upward,"[(4, 8)]","[(4, 5)]",1
+that was a nice and fine song the girl could still remember.,The girl could still remember that sweet song.,that was a nice and fine song,that sweet song,"[(1, 7)]","[(6, 8)]",1
+Fame and fortune are for real heroes.,Fame grows to the heroes.,and fortune are for real heroes,grows to the heroes,"[(2, 7)]","[(2, 5)]",1
+I don't know how you will manage to convince me that story because it sounds like a ludicrous tale.,Am I supposed to gobble up that story?,because it sounds like a ludicrous tale,gobble up that story,"[(13, 19)]","[(5, 8)]",1
+"If something gets etched into your memory, it means you will never forget about it.",The event dug itself into her memory.,it means you will never forget about it,The event dug itself,"[(8, 15)]","[(1, 4)]",1
+The faculty meeting was highly aggressive.,The faculty meeting was a real war.,highly aggressive,a real war,"[(5, 6)]","[(5, 7)]",1
+The moon reflected back at itself from the lake’s surface.,The moon winked back at itself from the lake’s surface.,reflected back at itself from the lake’s surface,winked back at itself from the lake’s surface,"[(3, 10)]","[(3, 10)]",1
+Their honey moon was very pleasant,Their honey moon was a dream.,very pleasant,a dream,"[(5, 6)]","[(5, 6)]",1
+He thinks these documents will be disclosed in a few years or so.,He thinks these documents will leak out soon or late.,be disclosed in a few years or so,leak out soon or late,"[(6, 13)]","[(6, 10)]",1
+I was very unlucky in my life  he said.,It always rained in my life he said.,I was very unlucky,It always rained,"[(1, 4)]","[(1, 3)]",1
+"Till it reached the top of heaven ,","Till it touched the top of heaven ,",reached the top of heaven,touched the top of heaven,"[(3, 7)]","[(3, 7)]",1
+You can rely on me to help you any time.,You can count on me to help you any time.,rely on,count on,"[(3, 4)]","[(3, 4)]",1
+I miss staring in her eyes and watching her.,I miss swimming in her eyes and watching her.,staring in her eyes,swimming in her eyes,"[(3, 6)]","[(3, 6)]",1
+"As a result of the spasm, her facial muscle contracted.",The spasm whips her facial muscles.,As a result of the spasm,whips her facial,"[(1, 6)]","[(3, 5)]",1
+The way they talk to us makes us feel like they are telling the truth.,Their language sways us to believe them.,feel like they are telling the truth,Their language sways us,"[(9, 15)]","[(1, 4)]",1
+Earthquake hath continued deeply its tale on them.,Earthquake hath pressed deeply its tale on them.,continued deeply its tale on them,pressed deeply its tale on them,"[(3, 8)]","[(3, 8)]",1
+The press was silenced.,The press was gagged.,silenced,gagged,"[(4, 4)]","[(4, 4)]",1
+Middle age made her less enthusiastic about travelling.,Middle age dulled her appetite for travel.,made her less enthusiastic about travelling,dulled her appetite for travel,"[(3, 8)]","[(3, 7)]",1
+And gave an answer very gravely.,And  made  answer very gravely.,gave an answer very gravely,made answer very gravely,"[(2, 6)]","[(2, 5)]",1
+And the spirit stooping down.,"And the Spirit ,  stooping  earthward ,",stooping down,", stooping earthward","[(4, 5)]","[(4, 7)]",1
+The forest fire moved at an exponential speed spreading around the area.,The wildfire ravaged through the forest at an amazing speed.,fire moved,The wildfire ravaged through the forest,"[(3, 4)]","[(1, 6)]",1
+He brought new life into the old house.,He breathed new life into the old house.,brought new life into the old house,breathed new life into the old house,"[(2, 8)]","[(2, 8)]",1
+You have to hope that the blankess will be gone and life will be better.,You have to hope that its blankness will slowly dissolve and let life in .,be gone,that its blankness will,"[(9, 10)]","[(5, 8)]",1
+The judge sentenced him to go to jail.,The judge clapped him in jail.,sentenced him to go to jail,clapped him in jail,"[(3, 8)]","[(3, 6)]",1
+Her attitude was so full of power and that made me not to tolerate anymore.,"Julia was an overbearing pizza with condescending toppings, and frankly, I was on a diet.",that made me not to tolerate anymore,an overbearing pizza with condescending toppings,"[(9, 15)]","[(3, 8)]",1
+Other organizations could not be incorporated but could still be brought within the Central Office orbit .,Other organizations could not be absorbed but could still be brought within the Central Office orbit .,incorporated,absorbed,"[(6, 6)]","[(6, 6)]",1
+The greedy businessman embezzled the company and used millions of dollars.,The businessman kited millions of dollars.,The greedy businessman embezzled the company and used millions of dollars,The businessman kited millions of dollars,"[(1, 11)]","[(1, 6)]",1
+She was saddened by his refusal of her invitation.,She was crushed by his refusal of her invitation.,saddened by his refusal of her invitation,crushed by his refusal of her invitation,"[(3, 9)]","[(3, 9)]",1
+I struggled with this decision for years.,I battled with this decision for years.,struggled with this decision for years,battled with this decision for years,"[(2, 7)]","[(2, 7)]",1
+She was trying to push the wall with all her strength.,She hailed against the wall with all her strength.,was trying to push the wall with all her strength,hailed against the wall with all her strength,"[(2, 11)]","[(2, 9)]",1
+A person who suffers a lot of problems.,Whom fate has yoked with a weight of woes.,A person who suffers a,Whom fate has yoked with a weight of,"[(1, 5)]","[(1, 8)]",1
+"From whose branches hanged the mosses ,","From whose branches  trailed  the mosses ,",hanged the mosses,trailed the mosses,"[(4, 6)]","[(4, 6)]",1
+As I walk through the grey mist that blocks my sight.,As I walk through the grey mist that tempers my sight.,that blocks my sight,that tempers my sight,"[(8, 11)]","[(8, 11)]",1
+The sudden fame made her totally go crazy with ego.,The sudden fame burst forth her ego.,made her totally go crazy with ego,burst forth her ego,"[(4, 10)]","[(4, 7)]",1
+The children appeared beautiful and fragile.,The children were roses: beautiful and forlorn.,appeared beautiful and fragile,were roses: beautiful and forlorn,"[(3, 6)]","[(3, 7)]",1
+Paula tried to act all nonchalant by sitting on the cutting table in an elevated position.,Paula perched herself against the cutting table trying to look nonchalant .,tried to act all nonchalant by sitting on the cutting table | in an elevated position,perched herself against the cutting table | trying to look nonchalant,"[(2, 12), (13, 16)]","[(2, 7), (8, 12)]",2
+They only finishing off their dinner with a liquor.,They polished off their dinner with a cognac.,only finishing off their dinner with a | liquor,polished off their dinner with a | cognac,"[(2, 8), (9, 9)]","[(2, 7), (8, 8)]",2
+"The only thing success inspires people to do is take credit, but no one will ever be ready to take responsibility for failure.",Success is a bastard as it has many fathers; failure is an orphan with no takers.,no one will ever be ready to take responsibility for failure,a bastard as it has many fathers; failure is,"[(13, 23)]","[(3, 11)]",1
+Experiencing great awe was Hiawatha.,Filled  with awe was Hiawatha.,Experiencing great awe was Hiawatha,Filled with awe was Hiawatha,"[(1, 5)]","[(1, 5)]",1
+As the clouds are scattered from the skies.,"As the clouds are  swept  from heaven ,",scattered from the skies,swept from heaven,"[(5, 8)]","[(5, 8)]",1
+The party was so good till she left and now it is hell.,The party dissipated as soon as she left.,and now it is hell,dissipated as soon as she left,"[(9, 13)]","[(3, 8)]",1
+He felt an obscure and disquieting sexual desire.,He felt a dark sexual desire.,an obscure and disquieting sexual desire,a dark sexual desire,"[(3, 8)]","[(3, 6)]",1
+The moon reflected itself from the surface of lake.,The moon glared back at itself from the lake's surface.,reflected itself from the | surface of lake,glared back at itself from the | lake's surface,"[(3, 6), (7, 9)]","[(3, 8), (9, 10)]",2
+Develop the young child's character.,Form the young child's character.,Develop the young child's character,Form the young child's character,"[(1, 5)]","[(1, 5)]",1
+The bad review made him feel miserable and thus diminished his confidence.,The bad review of his work deflated his self-confidence.,made him feel miserable and thus diminished his confidence,of his work deflated his self-confidence,"[(4, 12)]","[(4, 9)]",1
+After the heavy rain and dark clouds a ray of light has finally shown up.,The hidden sun boomerangs with light.,the heavy rain and dark clouds a ray of light,The hidden sun boomerangs with light,"[(2, 11)]","[(1, 6)]",1
+The night sky was filled with massive fireballs.,The night sky flurried with the massive bombardment.,was filled with massive fireballs,flurried with the massive bombardment,"[(4, 8)]","[(4, 8)]",1
+We can count on this man.,We can lean on this man.,count on this man,lean on this man,"[(3, 6)]","[(3, 6)]",1
+The delinquent reeked of smoke because he was smoking again.,The smell of smoke carpeted on the delinquent.,because he was smoking again,carpeted on the delinquent,"[(6, 10)]","[(5, 8)]",1
+He bought new life into the performance.,He injected new life into the performance.,bought new life into the performance,injected new life into the performance,"[(2, 7)]","[(2, 7)]",1
+"The gravy was so fatty, it made the meat taste greasy.",The meat was transfigured in a fatty gravy.,it made the meat,transfigured in a fatty gravy,"[(6, 9)]","[(4, 8)]",1
+The faculty meeting was highly aggressive.,The faculty meeting was a war.,highly aggressive,a war,"[(5, 6)]","[(5, 6)]",1
+The force are known for always attacking their enemy at night.,The force decimated the village at night.,are known for always attacking their enemy at night,decimated the village at night,"[(3, 11)]","[(3, 7)]",1
+The fruits are preserved in eternity.,The fruits are crystalized in eternity.,preserved in eternity,crystalized in eternity,"[(4, 6)]","[(4, 6)]",1
+Will you please be careful when turning it on so it doesn't get too loud?,"well don't turn it on too loud , will you ?",please be careful when turning it,well don't turn it,"[(3, 8)]","[(1, 4)]",1
+The banging on the door was way too assertive now .,The pounding on the door was more assertive now.,The banging on the door was | way too assertive now,The pounding on the door was | more assertive now,"[(1, 6), (7, 11)]","[(1, 6), (7, 9)]",2
+This new idea is a complete waste of time because it will never become anything.,This idea will never amount to anything.,is a complete waste of time because it will never,amount to anything,"[(4, 13)]","[(5, 7)]",1
+The middle east has a problem that is bubbling up.,The middle east is fermenting.,has a problem that is bubbling up,is fermenting,"[(4, 10)]","[(4, 5)]",1
+They created a shudder through my being still.,They sprouted a shudder through my being still.,created a shudder through my being still,sprouted a shudder through my being still,"[(2, 8)]","[(2, 8)]",1
+"Added smoothness to the rugged hills ,","Touched the rugged hills with smoothness ,",Added smoothness,with smoothness,"[(1, 2)]","[(5, 6)]",1
+Still waters shaking in the wind,Still waters pool in the wind.,shaking in the wind,pool in the wind,"[(3, 6)]","[(3, 6)]",1
+He is in such a hurry that he runs extremely fast.,He is in such a hurry he does not run  he flies.,that he runs extremely fast,he does not run he flies,"[(7, 11)]","[(7, 12)]",1
+"Lightly drew a winding pathway for it ,","Traced a winding pathway for it ,",Lightly drew a winding pathway,Traced a winding pathway,"[(1, 5)]","[(1, 4)]",1
+The man still had unpleasant and negative feelings about the situation.,The man still had heavy feelings about the situation.,unpleasant and negative feelings about the situation,heavy feelings about the situation,"[(5, 11)]","[(5, 9)]",1
+he was so happy and felt an intense excitment.,He felt a wave of excitement.,was so happy and felt an intense excitment,felt a wave of excitement,"[(2, 9)]","[(2, 6)]",1
+ A bunch of clouds randomly spinning around in the sky.,The clouds twirled each other around in the sky.,A bunch of clouds,twirled each other,"[(1, 4)]","[(3, 5)]",1
+Words are like a sword and can have a powerful impact on someone's mind.,Words are weapons.,like a sword and can have a powerful impact on someone's mind,weapons,"[(3, 14)]","[(3, 3)]",1
+They finished their dinner with a cognac.,They terminated off their dinner with a cognac.,finished their dinner with a cognac,terminated off their dinner with a cognac,"[(2, 7)]","[(2, 8)]",1
+The attackers opened fire on the civilians.,The attackers spat gunshots at the civilians.,opened fire on the civilians,spat gunshots at the civilians,"[(3, 7)]","[(3, 7)]",1
+The ex-slave died just a few months after gaining her freedom.,The ex-slave found freedom shortly before she died.,died just a few months after gaining her freedom,found freedom shortly before she died,"[(3, 11)]","[(3, 8)]",1
+"FISA was relatively unimportant at the time, organized European and other championships and participating in the running of Olympic regattas.",fisa was then a relatively unimportant body which hosted european and other championships and participated in the running of olympic regattas,"relatively unimportant at the time, organized European | participating in the running of Olympic regattas",then a relatively unimportant body which hosted european | participated in the running of olympic regattas,"[(3, 9), (14, 20)]","[(3, 10), (15, 21)]",2
+His playing established him as a Romantic.,His playing birthed him as a Romantic.,established him as a Romantic,birthed him as a Romantic,"[(3, 7)]","[(3, 7)]",1
+Those galaxies were jellyfishes in the seemingly endless space.,Those galaxies were jellyfishes in the abyss of space.,the seemingly endless space,the abyss of space,"[(6, 9)]","[(6, 9)]",1
+The captain was a respectable person.,The captain was a tall and noble statue.,a respectable person,a tall and noble statue,"[(4, 6)]","[(4, 8)]",1
+Everyone used to love you.,You were the golden boy back then.,Everyone used to love you,were the golden boy back then,"[(1, 5)]","[(2, 7)]",1
+"Guskewau , the darkness , surrounded her.","Guskewau , the darkness ,  wrapped  her.",surrounded her,wrapped her,"[(6, 7)]","[(6, 7)]",1
+Rahul chugged his drink pretty quickly.,Rahul drank his glass.,chugged his drink pretty quickly,drank his glass,"[(2, 6)]","[(2, 4)]",1
+The teapot shook and boiled over.,The teapot shuddered as the water boiled.,shook and boiled over,shuddered as the water boiled,"[(3, 6)]","[(3, 7)]",1
+The light had taken over the dark.,Light had overgrown darkness.,taken over the dark,overgrown darkness,"[(4, 7)]","[(3, 4)]",1
+Fear made him shudder all over.,Fear had changed him to a shaken jelly.,made him shudder all over,had changed him to a shaken jelly,"[(2, 6)]","[(2, 8)]",1
+Asking your help  but I cannot find you because you vanished into thin air.,I asked for your help and you disappeared from radar.,vanished into thin air,disappeared from radar,"[(11, 14)]","[(8, 10)]",1
+her smile was wonderful and fulfilling to see.,her smile was a blinding sun.,wonderful and fulfilling to see,a blinding sun,"[(4, 8)]","[(4, 6)]",1
+He smiles all the time.,He always flashes a smile.,smiles all the time,always flashes a smile,"[(2, 5)]","[(2, 5)]",1
+As I walk through the grey mist that blocks my sight.,As I walk through the grey mist that twists my sight.,that blocks my sight,that twists my sight,"[(8, 11)]","[(8, 11)]",1
+A weather vane tops the building.,A weather vane caps the building.,tops the building,caps the building,"[(4, 6)]","[(4, 6)]",1
+The sun is setting in the dark sky and the color is now orange.,See the sun far off a shriveled orange in a sky gone black.,the color is now orange,far off a shriveled orange,"[(10, 14)]","[(4, 8)]",1
+Time passes when you're having fun.,Time flies when you're having fun.,passes when you're having fun,flies when you're having fun,"[(2, 6)]","[(2, 6)]",1
+Everyone has memories that make them feel disappointed.,Every person has bitter memories.,that make them feel disappointed,Every person has,"[(4, 8)]","[(1, 3)]",1
+"The muffled barking of a dog came from one of the stone sheds , but there was no sign of life around the buildings .","The hollow barking of a dog came from one of the stone sheds , but there was no sign of life around the buildings .",The muffled barking of a dog came from one of the stone sheds,The hollow barking of a dog came from one of the stone sheds,"[(1, 13)]","[(1, 13)]",1
+The great age of computers has just arrived to us.,The age of computers had dawned.,has just arrived to us,had dawned,"[(6, 10)]","[(5, 6)]",1
+Her hair smelled like a delicate fragrance that was lingering around me.,Of that faint fragrance rising from her soft hair.,smelled like a delicate fragrance that,rising from her soft hair,"[(3, 8)]","[(5, 9)]",1
+The flower bends to and fro in the wind.,The flowers danced in the gentle breeze.,The flower bends to and fro in the wind,The flowers danced in the gentle breeze,"[(1, 9)]","[(1, 7)]",1
+"In addition, the disastrous storm, destroyed the town.","In addition, the storm trampled the town.","the disastrous storm, destroyed the town",the storm trampled the town,"[(3, 8)]","[(3, 7)]",1
+Most of the immigrants that have come here and now successfully part of the local community.,The immigrants were quickly absorbed into society.,that have come here and now successfully part of the,were quickly absorbed into society,"[(5, 14)]","[(3, 7)]",1
+The warrior was brave and strong on the battlefield who never gives up.,The warrior was a lion on the battlefield.,who never gives up,a lion,"[(10, 13)]","[(4, 5)]",1
+The setting of western movies is appealing to us because it resembles a gladiator arena with shooting guns.,"‘ Westerns have a gladiatorial , timeless quality .",The setting of western movies is appealing to us because it resembles a,Westerns have a,"[(1, 13)]","[(2, 4)]",1
+The employee does not show her anger and continues as usual.,The employee swallows her anger.,does not show her anger and continues as usual,swallows her anger,"[(3, 11)]","[(3, 5)]",1
+Still waters sway in the wind,Still waters groove in the wind.,sway in the wind,groove in the wind,"[(3, 6)]","[(3, 6)]",1
+All the water that looks like blood!.,All the water  flushed  with crimson !.,that looks like blood,flushed with crimson,"[(4, 7)]","[(4, 7)]",1
+In our relationship we had always got into a ton of arguments and frequent fights.,I was in a very stormy relationship.,we had always got into a,I was,"[(4, 9)]","[(1, 2)]",1
+"It seemed from truth alone , the truth we live.","It appeared from truth alone , the truth we live.",seemed from truth alone,appeared from truth alone,"[(2, 5)]","[(2, 5)]",1
+I saw the depressed and sad look on their faces.,Their faces were shrouded with sadness.,I saw the depressed and sad look on their faces,were shrouded with sadness,"[(1, 10)]","[(3, 6)]",1
+She had to manage her job and her children at the same time.,She had to juggle her job and her children.,at the same time,juggle,"[(10, 13)]","[(4, 4)]",1
+After drinking a couple of martinis he gets so drunk that he becomes sick.,"After three martinis, Abhinav was feeling unwell.",he gets so drunk that he becomes sick,Abhinav was feeling unwell,"[(7, 14)]","[(4, 7)]",1
+Every star seemed to shine with new intensity.,Every star seemed to burst with new intensity.,shine with new intensity,burst with new intensity,"[(5, 8)]","[(5, 8)]",1
+You will love the new train it is a great ride that it offers.,You will love the new train. it is a heavenly ride.,a great ride that it offers,a heavenly ride,"[(9, 14)]","[(9, 11)]",1
+The wind blows through the branches of this huge tree.,The wind floats through the leaves.,blows through the branches of this huge tree,floats through the leaves,"[(3, 10)]","[(3, 6)]",1
+Her fear was so terrifying that it was blocking her mind.,Fear clogged her mind.,was so terrifying that it was blocking her mind,clogged her mind,"[(3, 11)]","[(2, 4)]",1
+The weeks passed slowly until we could meet again.,The weeks crawled by until we could meet again.,passed slowly until we could meet again,crawled by until we could meet again,"[(3, 9)]","[(3, 9)]",1
+"After working two years at the company she got  exhausted, stressed, and drained.",After working two years for the company she was burned out.,"at the company she | got exhausted, stressed, and drained",for the company she | was burned out,"[(5, 8), (9, 13)]","[(5, 8), (9, 11)]",2
+The images reflected in the brilliance that covered him warm.,The images basked in the brilliance that covered him warm.,reflected in the brilliance that covered him warm,basked in the brilliance that covered him warm,"[(3, 10)]","[(3, 10)]",1
+Make the start for a new health care plan.,Lay the foundation for a new health care plan.,the start,Lay the foundation for a new health care plan,"[(2, 3)]","[(1, 9)]",1
+The book caught her imagination.,The book captured her imagination.,caught her imagination,captured her imagination,"[(3, 5)]","[(3, 5)]",1
+The President completely denies the allegation or accusation is a blant denial.,The President brushed aside the accusations.,the allegation or accusation is a blant denial,brushed aside the,"[(5, 12)]","[(3, 5)]",1
+Smoking cigarettes made him deteriorate his health.,The cigarettes snuffed his health.,made him deteriorate his health,snuffed his health,"[(3, 7)]","[(3, 5)]",1
+People think the old man's temper is unsociable and unacceptable.,People think the old man has a sour temper.,man's temper is unsociable and unacceptable,man has a sour temper,"[(5, 10)]","[(5, 9)]",1
+To guts the sob of my agony,To scrape the sob of my agony.,guts the sob of my agony,scrape the sob of my agony,"[(2, 7)]","[(2, 7)]",1
+The moon gave the stars of the sky an opportunity to shine.,The moon smiled at the stars in the sky.,an opportunity to shine,smiled at the stars,"[(9, 12)]","[(3, 6)]",1
+He guided his life by the principles he always wished for .,And his wishes served to  guide  him .,his life by the principles he always wished for,his wishes served to guide him,"[(3, 11)]","[(2, 7)]",1
+"But then again, Peleg always has something very philosophical to say about every discussion.",As for Peleg he took it more like a philosopher.,always has something very philosophical to say about every discussion,he took it more like a philosopher,"[(5, 14)]","[(4, 10)]",1
+"In Bombay, every person is out to make quick money out of opportunities.","In Bombay, people change dance partners frequently, but not the dance.",every person is out to make quick money out of opportunities,"people change dance partners frequently, but not the dance","[(3, 13)]","[(3, 11)]",1
+He called the servant.,He summoned the servant.,called the servant,summoned the servant,"[(2, 4)]","[(2, 4)]",1
+Some peaks in demand can be handled by bringing in some expert consultants.,some peaks of demand can be dealt with by external consultants.,in demand can be | handled by bringing in some expert consultants,of demand can be | dealt with by external consultants,"[(3, 6), (7, 13)]","[(3, 6), (7, 11)]",2
+He just gave him a ton of work that needs to be done.,He heaped him with work.,that needs to be done,heaped him,"[(9, 13)]","[(2, 3)]",1
+He always flashes a smile.,He always wore a smile.,flashes a smile,wore a smile,"[(3, 5)]","[(3, 5)]",1
+All my points got rejected by Jianna.,Jianna shot down all of my arguments.,my points got rejected by Jianna,shot down all,"[(2, 7)]","[(2, 4)]",1
+Such the spell I made upon you.,"Such the spell I  cast  upon you ,",made upon you,cast upon you,"[(5, 7)]","[(5, 8)]",1
+"With all the tax cuts, the economy will surely be improved.",The tax cut will uplift the economy.,surely be improved,cut will,"[(9, 11)]","[(3, 4)]",1
+His eyes were glued onto their tracks .,"On their tracks his eyes were  fastened  ,",glued onto their tracks,On their tracks,"[(4, 7)]","[(1, 3)]",1
+Which horse are you betting on to win?,Which horse are you backing?,betting on to win,backing,"[(5, 8)]","[(5, 5)]",1
+"It seemed from truth alone , the truth we live","It struck from truth alone , the truth we live.",seemed from truth alone,struck from truth alone,"[(2, 5)]","[(2, 5)]",1
+He started to slowly regain his sense and strength.,Slowly his sense and strength bloomed.,He started to slowly regain,bloomed,"[(1, 5)]","[(6, 6)]",1
+With reserve he thus gave an answer.,With reserve he thus made answer.,gave an answer,made answer,"[(5, 7)]","[(5, 6)]",1
+But nature shaped it imperfect ever.,But nature molded it imperfect ever.,shaped it imperfect ever,molded it imperfect ever,"[(3, 6)]","[(3, 6)]",1
+The new measurement units definitely shrinked the economy.,The new measures deflated the economy.,measurement units definitely shrinked the economy,measures deflated the economy,"[(3, 8)]","[(3, 6)]",1
+The wheat came up from the soil early this year.,The wheat headed early this year.,came up from the soil early this year,headed early this year,"[(3, 10)]","[(3, 6)]",1
+Harmless landed the blows he dealt it.,Harmless  fell  the blows he dealt it.,landed the blows he dealt it,fell the blows he dealt it,"[(2, 7)]","[(2, 7)]",1
+The novel starts off with a crime.,The novel emerges with a murder.,starts off with a crime,emerges with a murder,"[(3, 7)]","[(3, 6)]",1
+The impact of the meteorite creates a cloud of dust in the atmosphere which radiates all sorts of colors.,Meteors blazed across the atmosphere.,the meteorite creates a cloud of dust in the atmosphere,Meteors blazed across the atmosphere,"[(4, 13)]","[(1, 5)]",1
+My friend told me the project was very depressing to work on.,My friend said the project was a nightmare.,told me the project was | very depressing to work on,said the project was | a nightmare,"[(3, 7), (8, 12)]","[(3, 6), (7, 8)]",2
+For summer and his pleasures begin on thee.,For summer and his pleasures graced on thee.,begin on thee,graced on thee,"[(6, 8)]","[(6, 8)]",1
+And in her old bounds ended her despair.,And in her old bounds axed her despair.,ended her despair,axed her despair,"[(6, 8)]","[(6, 8)]",1
+The government made the whole law summarized into a code.,The government digested the entire law into a code.,made the whole law summarized into a code,digested the entire law into a code,"[(3, 10)]","[(3, 9)]",1
+He ended up bearing the costs for the accident.,He absorbed the costs for the accident.,ended up bearing the costs for the accident,absorbed the costs for the accident,"[(2, 9)]","[(2, 7)]",1
+It is amazing how some people can eat a pound of meat in one meal.,Some people can down a pound of meat in the course of one meal.,It is amazing,the course,"[(1, 3)]","[(10, 11)]",1
+My personal feelings regarding the situation affected my judgment to deliver a fair decision.,My personal feelings sway my judgment in this case.,to deliver a fair decision,in this case,"[(10, 14)]","[(7, 9)]",1
+I don't believe your story.,Am I supposed to swallow that story?,don't believe your story,supposed to swallow that story,"[(2, 5)]","[(3, 7)]",1
+I heard a shooting happened and felt sad the victims got attacked.,The attackers launched gunshots at the civilians.,I heard a shooting happened and felt sad the,The attackers launched gunshots at the,"[(1, 9)]","[(1, 6)]",1
+Till the day that all the cornfields around us reverberated with laughter.,"Till the cornfields rang with laughter ,",around us reverberated,rang,"[(8, 10)]","[(4, 4)]",1
+Though his pace he checked and gradually decreased in intensity.,Though his pace he checked and slackened.,gradually decreased in intensity,slackened,"[(7, 10)]","[(7, 7)]",1
+The charges were exaggerated.,The charges were inflated.,exaggerated,inflated,"[(4, 4)]","[(4, 4)]",1
+Woke up to the ringtone of my alarm clock.,My alarm yelled at me this morning.,Woke up to the ringtone of my alarm,yelled at me this morning,"[(1, 8)]","[(3, 7)]",1
+The animal swings its tail and strike the ground.,The animal shakes its tail in the air like a whip.,swings its tail and strike the ground,shakes its tail in the air like a whip,"[(3, 9)]","[(3, 11)]",1
+The professor always includes his political ideas in his lectures.,His political ideas color his lectures.,The professor always includes,color,"[(1, 4)]","[(4, 4)]",1
+I didn't burst into rage and did my best to keep quiet by controlling my anger.,I muffled my anger and kept quiet.,didn't burst into rage,muffled my anger,"[(2, 5)]","[(2, 4)]",1
+I wanted to withdraw money but the ATM was not working properly.,"I wanted to get money, but the ATM surrendered.",withdraw money | was not working properly,get money | surrendered,"[(4, 5), (9, 12)]","[(4, 5), (9, 9)]",2
+She fell into the trap of luxurious life.,She slipped into the luxury of life.,fell into the trap of luxurious life,slipped into the luxury of life,"[(2, 8)]","[(2, 7)]",1
+This problem has followed the UK and is now affecting them as well.,this problem has migrated to the uk.,and is now affecting them as well,migrated to the uk,"[(7, 13)]","[(4, 7)]",1
+My personal feelings and biases make me form a judgment about this situation.,My personal feelings color my judgment in this case.,and biases make me form a judgment,color my judgment,"[(4, 10)]","[(4, 6)]",1
+I was experiencing extreme changes in my feelings.,I was on a rollercoaster of emotions.,experiencing extreme changes in my feelings,on a rollercoaster of emotions,"[(3, 8)]","[(3, 7)]",1
+I completely controlled my anger and ended up not shouting.,I restrained my anger and kept quiet.,completely controlled my anger | ended up not shouting,restrained my anger | kept quiet,"[(2, 5), (7, 10)]","[(2, 4), (6, 7)]",2
+"Since the day we are born to till the moment we die, our lives' only aim is to fulfill this urge of being happy, even it is difficult.",Our whole life we swim against the waves towards the green light of happiness.,our lives' only aim is to fulfill this urge,Our whole life we,"[(13, 21)]","[(1, 4)]",1
+Water leaked out of the can into the backpack.,Water flooded out of the can into the backpack.,leaked out of the can into the backpack,flooded out of the can into the backpack,"[(2, 9)]","[(2, 9)]",1
+Provide the best education possible for our children because we are putting money into it.,We streamed money into the education of our children.,are putting money,streamed money,"[(11, 13)]","[(2, 3)]",1
+"Second , it would ensure that workers enjoyed positive rights under law and reduce the emphasis of union exemptions from specified duties .","Second , it would ensure that workers enjoyed positive rights under law and reduce the emphasis of union immunities .",exemptions from specified duties,immunities,"[(19, 22)]","[(19, 19)]",1
+"Speak sincerely , Minnehaha !.","Let your heart  speak  , Minnehaha ! .",Speak sincerely,Let your heart speak,"[(1, 2)]","[(1, 4)]",1
+She brought a lot of happiness into my life.,She was the darling of my life.,brought a lot of happiness into my life,was the darling of my life,"[(2, 9)]","[(2, 7)]",1
+He bear the costs of this accident.,He shouldered the costs for the accident.,bear the costs of this accident,shouldered the costs for the accident,"[(2, 7)]","[(2, 7)]",1
+"Despite many and varied sudden activities in the first 40 minutes , Arsenal seemed reasonably secure if not inspired .","Despite many and varied flurries of activity in the first 40 minutes , Arsenal seemed reasonably secure if not inspired .",sudden activities in the first 40 minutes,flurries of activity in the first 40 minutes,"[(5, 11)]","[(5, 12)]",1
+Everything down to his glory.,Everything flowed to his glory.,down to his glory,flowed to his glory,"[(2, 5)]","[(2, 5)]",1
+Every star seemed to shine with new intensity.,Every star seemed to flare with new intensity.,shine with new intensity,flare with new intensity,"[(5, 8)]","[(5, 8)]",1
+Being forced to read a book that you dislike the most is one of the worst things that can happen in life.,There are few things worse than being bludgeoned into reading a book you hate .,dislike the most is one of the worst things,There are few things,"[(9, 17)]","[(1, 4)]",1
+The bullet penetrated her chest.,The bullet pierced her chest.,penetrated her chest,pierced her chest,"[(3, 5)]","[(3, 5)]",1
+My brain is strudy after the bottle of champagne.,My brain is stable after the bottle of champagne.,strudy after the bottle of champagne,stable after the bottle of champagne,"[(4, 9)]","[(4, 9)]",1
+ The stars were shining in the night sky.,The stars sparkle in the night sky.,were shining in the night sky,sparkle in the night sky,"[(3, 8)]","[(3, 7)]",1
+She was planting sunflower seeds.,She dawned sunflower seeds.,was planting sunflower seeds,dawned sunflower seeds,"[(2, 5)]","[(2, 4)]",1
+I tried to resolve their fight.,I tried to tide things over between them.,resolve their fight,tide things over between them,"[(4, 6)]","[(4, 8)]",1
+Let us spend the night together.,"Let us  pass  the night together ,",spend,pass,"[(3, 3)]","[(3, 3)]",1
+You help me reminisce or remember fondly the good times that have passed.,You bring back the days departed.,help me reminisce or remember fondly the,bring back the,"[(2, 8)]","[(2, 4)]",1
+Ahab was absolutely firm in his intentions but I kept trying to change his mind.,Ahab was a pyramid but I kept kicking at him.,absolutely firm in his intentions | trying to change his mind,a pyramid | kicking at him,"[(3, 7), (11, 15)]","[(3, 4), (8, 10)]",2
+"Then my troubled heart is made more cheerful ,","Then my troubled heart is brightened ,",made more cheerful,brightened,"[(6, 8)]","[(6, 6)]",1
+Could not make them start an argument.,"Could not  breed  ill-will between them ,",make them start an argument,breed ill-will between them,"[(3, 7)]","[(3, 7)]",1
+Overlooking the river is the bridge.,The bridge towers over the river.,is the bridge,towers over the river,"[(4, 6)]","[(3, 6)]",1
+He drank three martinis before dinner.,He downed three martinis before dinner.,drank,downed,"[(2, 2)]","[(2, 2)]",1
+We have researched hard and then eventually retrieved some interesting facts.,We dug up some interesting facts.,have researched hard and then eventually retrieved some interesting facts,dug up some interesting facts,"[(2, 11)]","[(2, 6)]",1
+Made everything on the earth silent.,"Covered  all the earth with silence ,",Made everything on the earth,Covered all the earth,"[(1, 5)]","[(1, 4)]",1
+The old woman was kind enough and generous.,The old woman had an open heart.,was kind enough and generous,had an open heart,"[(4, 8)]","[(4, 7)]",1
+All fire-flush 'd when forest trees burned.,All fire-flush 'd when forest trees smoldered.,burned,smoldered,"[(7, 7)]","[(7, 7)]",1
+A star tops the Christmas tree which stands for the star of Bethlehem.,A star christens the Christmas Tree.,which stands for the star of Bethlehem,christens,"[(7, 13)]","[(3, 3)]",1
+She scratched the doorknob with nails.,She clawed the doorknob.,scratched the doorknob with nails,clawed the doorknob,"[(2, 6)]","[(2, 4)]",1
+Duryodhan was just a despicable and disgraceful son from the Kuru dynasty.,Duryodhan was the black sheep of the Kuru dynasty.,just a despicable and disgraceful son from the Kuru dynasty,the black sheep of the Kuru dynasty,"[(3, 12)]","[(3, 9)]",1
+There was snow on the entire mountain.,The mountain was quilted with snow.,on the,quilted with snow,"[(4, 5)]","[(4, 6)]",1
+The fire engulfs the building.,The fire consumed the building.,engulfs the building,consumed the building,"[(3, 5)]","[(3, 5)]",1
+During the conflict the first elements of a peace accord appeared.,During the conflict the seeds of peace were planted.,the first elements of a peace accord appeared,the seeds of peace were planted,"[(4, 11)]","[(4, 9)]",1
+She sought information from the witnesses.,She pressed the witnesses for information.,sought information from the witnesses,pressed the witnesses for information,"[(2, 6)]","[(2, 6)]",1
+My head was resting in the crook of her neck.,My head lay in the crook of her neck.,was resting in the crook of her neck,lay in the crook of her neck,"[(3, 10)]","[(3, 9)]",1
+You are wasting my patience,You are spilling my patience.,wasting my patience,spilling my patience,"[(3, 5)]","[(3, 5)]",1
+The fruits are preserved in eternity.,The fruits are fossilized in eternity.,preserved in eternity,fossilized in eternity,"[(4, 6)]","[(4, 6)]",1
+Till the tree-tops were trembling the laughter.,"Till the tree-tops shook with laughter ,",were trembling the laughter,shook with laughter,"[(4, 7)]","[(4, 7)]",1
+My personal feelings influenced my judgment in this case.,My personal feelings shadowed my judgment in this case.,influenced my judgment in this case,shadowed my judgment in this case,"[(4, 9)]","[(4, 9)]",1
+This story will hook you up.,This story will grab you.,hook you up,grab you,"[(4, 6)]","[(4, 5)]",1
+He was warmly covered in the brilliance that reflected the images.,The images cast in the brilliance that covered him warm.,He was warmly covered in the brilliance that | reflected the images,The images cast in the brilliance that | covered him warm,"[(1, 8), (9, 11)]","[(1, 7), (8, 10)]",2
+"He kept on being very miserable, irritated, and angry.",He was in a black mood.,"kept on being very miserable, irritated, and angry",was in a black mood,"[(2, 9)]","[(2, 6)]",1
+"Despite spending many years with the company, he was fired.",The company booted him after many years of service.,he was fired,booted him after many years,"[(8, 10)]","[(3, 7)]",1
+"Moreover, the storm caused a great deal of distress to the inhabitants of the town.","In addition, the storm bombed the town.",caused a great deal of distress to the,"In addition, the storm","[(4, 11)]","[(1, 4)]",1
+My coat is covered with little raindrops that fall together.,The little raindrops diving together stick upon my coat.,is covered with little raindrops,stick upon my coat,"[(3, 7)]","[(6, 9)]",1
+We have made you undergo the trial.,"We have put you to the trial ,",made you undergo the trial,put you to the trial,"[(3, 7)]","[(3, 8)]",1
+She was totally under the illusion that she was living a romantic adventure.,She was sure she was living this fantasy romance and kept deluding herself.,totally under the illusion that she was living | a romantic adventure,sure she was living | this fantasy romance and kept deluding herself,"[(3, 10), (11, 13)]","[(3, 6), (7, 13)]",2
+The new band turned out to be absolutely great.,The new band was absolutely on fire.,turned out to be absolutely great,was absolutely on fire,"[(4, 9)]","[(4, 7)]",1
+The causes of progress are in technological development.,The roots of progress are in technological development.,The causes of progress are in technological development,The roots of progress are in technological development,"[(1, 8)]","[(1, 8)]",1
+She can feel her bones were chilled due to the cold.,The cold petrifies her bones.,were chilled due to the cold,petrifies her bones,"[(6, 11)]","[(3, 5)]",1
+The bus was going very fast.,The bus bolted down the road.,was going very fast,bolted down the road,"[(3, 6)]","[(3, 6)]",1
+The small boat could not take the huge waves and sank.,The huge waves smacked the small boat and it sank shortly thereafter.,could not take the huge waves and sank,and it sank shortly thereafter,"[(4, 11)]","[(8, 12)]",1
+"Life is just a delusion, something illusory.",Life is just a dream in the night.,"a delusion, something illusory",a dream in the night,"[(4, 7)]","[(4, 8)]",1
+The play is going to hurt few people.,The play is going to burn few people.,hurt few people,burn few people,"[(6, 8)]","[(6, 8)]",1
+This fact goes against all the standard theories.,This fact warred against the standard theories.,goes against all the standard theories,warred against the standard theories,"[(3, 8)]","[(3, 7)]",1
+he summoned the servant.,He buzzed the servant.,summoned the servant,buzzed the servant,"[(2, 4)]","[(2, 4)]",1
+I'm definitely gonna get fired if I don't submit the report on time.,The boss will eat me alive if the report arrives late.,I'm definitely gonna get fired if,The boss will eat me alive if the report,"[(1, 6)]","[(1, 9)]",1
+It was the moment to forget everything had happened and focus on one's life again.,The moment had arrived for killing the past and coming back to life.,focus on one's life,arrived for killing the,"[(11, 14)]","[(4, 7)]",1
+Mark should know that his sarcastic and irritating comments are totally unnecessary to make.,Mark ’s comments are an acid bath for my nerves.,should know that his sarcastic and irritating comments are,an acid bath for my nerves,"[(2, 10)]","[(5, 10)]",1
+The light had taken over the dark.,Light had banished  darkness.,taken over the dark,banished darkness,"[(4, 7)]","[(3, 4)]",1
+We agreed on the terms of the settlement.,We took on the terms of the settlement.,agreed on the terms of the settlement,took on the terms of the settlement,"[(2, 8)]","[(2, 8)]",1
+My eyes have teared up and my face turned red.,My eyes burned up and I could feel my face turning red.,have teared up and my face turned red,burned up and I could feel my face turning red,"[(3, 10)]","[(3, 12)]",1
+He burdened him with work.,He heaped him with work.,burdened him with work,heaped him with work,"[(2, 5)]","[(2, 5)]",1
+They were really disappointed and thus cried a lot.,Then they cried a sea of tears.,were really disappointed and thus cried a,a sea of tears,"[(2, 8)]","[(4, 7)]",1
+"Oscillators never stay on one frequency, they are always searching around to find the right frequency and go up and down.",The oscillator hunts about the correct frequency.,they are always searching around to find the,The oscillator hunts about the correct frequency,"[(7, 14)]","[(1, 7)]",1
+This problem doesn't have a solution.,This problem admits of no solution.,doesn't have a solution,admits of no solution,"[(3, 6)]","[(3, 6)]",1
+John's performance is rather insignificant in comparison to his classmates.,John fell behind his class mates.,John's performance is rather insignificant in comparison to his,John fell behind his,"[(1, 9)]","[(1, 4)]",1
+The tax cut will definitely help the economy.,The tax cut will fertilize the economy.,definitely help the economy,fertilize the economy,"[(5, 8)]","[(5, 7)]",1
+The car crushed the toy.,The car smashed the toy.,crushed the toy,smashed the toy,"[(3, 5)]","[(3, 5)]",1
+He was so overwhelmed with happiness.,He was so happy he felt his heart was exploding.,overwhelmed with happiness,happy he felt his heart was exploding,"[(4, 6)]","[(4, 10)]",1
+I think you have not done your homework.,I fancy you have not done your homework.,think you have not done your homework,fancy you have not done your homework,"[(2, 8)]","[(2, 8)]",1
+But ‘ pretending to have an opinion ’ went far beyond the unions .,But ‘ posturing and pretending ’ went far beyond the unions .,pretending to have an opinion,posturing and pretending,"[(3, 7)]","[(3, 5)]",1
+The flame of the candle flickered in the darkness surrounding it.,The candle flame shivered in the dark.,the darkness surrounding it,shivered,"[(8, 11)]","[(4, 4)]",1
+The candidate slammed into his opponent mercilessly.,The candidate torpedoed into his opponent mercilessly.,slammed into his opponent mercilessly,torpedoed into his opponent mercilessly,"[(3, 7)]","[(3, 7)]",1
+She never put down his novels once she started reading them.,She devoured his novels.,never put down his novels,devoured his novels,"[(2, 6)]","[(2, 4)]",1
+Her passion is flowing through the air.,Her passion is dancing through the air.,flowing through the air,dancing through the air,"[(4, 7)]","[(4, 7)]",1
+They were provoking excitement.,They were stirring excitement.,provoking excitement,stirring excitement,"[(3, 4)]","[(3, 4)]",1
+"After the champagne bottle, my brain is buzzing.",My brain is glowing after the bottle of champagne.,After the champagne bottle,glowing after the bottle of champagne,"[(1, 4)]","[(4, 9)]",1
+I feel the book really captured her attention.,The book owned her imagination.,really captured her,owned her,"[(5, 7)]","[(3, 4)]",1
+The government converted the entire law into a code.,The government photosynthesized the entire law into a code.,converted the entire law into a code,photosynthesized the entire law into a code,"[(3, 9)]","[(3, 9)]",1
+Now this fool showed up with his confused mind.,Here comes the fool with his foggy brain.,Now this fool,Here comes the fool,"[(1, 3)]","[(1, 4)]",1
+"Now you discover that we are strongest ,","Now you  find  that we are strongest ,",discover that we are strongest,find that we are strongest,"[(3, 7)]","[(3, 7)]",1
+She came up with a good excuse for not attending classes that day .,She designed a good excuse for not attending classes that day.,came up,designed,"[(2, 3)]","[(2, 2)]",1
+Please retain all of my words.,Don't metamorphose my words.,Please retain all of my words,Don't metamorphose my words,"[(1, 6)]","[(1, 4)]",1
+David is a despicable person for what he did to Shelia.,David is a worm for what he did to Shelia.,a despicable person for what he did to Shelia,a worm for what he did to Shelia,"[(3, 11)]","[(3, 10)]",1
+He said that the leaders will have to deal with a lot of resentment.,He said the leaders will have to deal with an ocean of resentment.,a lot,an ocean,"[(11, 12)]","[(10, 11)]",1
+The girl said something interrupting the conversation.,The girl broke into the conversation.,said something interrupting the conversation,broke into the conversation,"[(3, 7)]","[(3, 6)]",1
+The voice at the other end was plainly over-excited and it took him a minute to separate into discrete units what he was being told .,The voice at the other end was plainly over-excited and it took him a minute to disentangle what he was being told .,separate into discrete units what he was being told,disentangle what he was being told,"[(17, 25)]","[(17, 22)]",1
+He was basically the epitome of the knowledge of his tribe.,He carried the knowledge or beliefs of his tribe.,was basically the epitome of the knowledge of his tribe,carried the knowledge or beliefs of his tribe,"[(2, 11)]","[(2, 9)]",1
+Her passion is flowing through the air.,Her passion is streaming through the air.,flowing through the air,streaming through the air,"[(4, 7)]","[(4, 7)]",1
+Managed to get to the top of the mountain with great difficulty.,They clawed their way to the top of the mountain.,with great difficulty,They clawed their way,"[(10, 12)]","[(1, 4)]",1
+His body was horribly disfigured by the bacteria known as leprosy.,His body was twisted by leprosy.,horribly disfigured by the bacteria known as leprosy,twisted by leprosy,"[(4, 11)]","[(4, 6)]",1
+"After a glass of wine, he relaxed up a bit.","After a glass of wine, he loosened up a bit.",relaxed up a bit,loosened up a bit,"[(7, 10)]","[(7, 10)]",1
+Her face was not visible and she didn't give any answer.,"Hid her face , but  made  no answer .",was not visible and she didn't give any answer,but made no answer,"[(3, 11)]","[(5, 8)]",1
+The faculty meeting was very easy and relaxing.,The faculty meeting was an easy breeze.,very easy and relaxing,an easy breeze,"[(5, 8)]","[(5, 7)]",1
+He always had a strong interest in learning and expanding his knowledge.,He always had an interest for the fruit of knowledge.,a strong interest in learning and expanding his knowledge,an interest for the fruit of knowledge,"[(4, 12)]","[(4, 10)]",1
+The darted harpoon was so fast that it looked shiny in the sea.,The darted harpoon was lightning in the sea.,so fast that it looked shiny in the sea,lightning in the sea,"[(5, 13)]","[(5, 8)]",1
+His voice was too loud and echos up the house.,His voice beamed up the house.,was too loud and echos up the house,beamed up the house,"[(3, 10)]","[(3, 6)]",1
+Jonathan was overwhelmed with sadness.,Jonathan drowned in a sea of grief.,was overwhelmed with sadness,drowned in a sea of grief,"[(2, 5)]","[(2, 7)]",1
+His laughter is contagious for everyone who is in the same room.,His laughter infects everyone who is in the same room.,is contagious for everyone who is in the same room,infects everyone who is in the same room,"[(3, 12)]","[(3, 10)]",1
+Surrounded by darkness like a garment.,Robed  with darkness as a garment .,Surrounded by darkness,Robed with darkness,"[(1, 3)]","[(1, 3)]",1
+The crocodile has yellow pointed teeth.,The crocodile's teeth are yellow daggers.,The crocodile has yellow pointed teeth,The crocodile's teeth are yellow daggers,"[(1, 6)]","[(1, 6)]",1
+we laid in the field of green grass and relaxed.,we laid in fields of gold.,the field of green grass and relaxed,fields of gold,"[(4, 10)]","[(4, 6)]",1
+The straight pathway that went between two trees.,"Straight between them  ran  the pathway ,",that went,them ran the pathway,"[(4, 5)]","[(3, 6)]",1
+We came to the mutual understanding to settle the deal and declare it as a peaceful agreement.,We made a truce on the terms of the settlement.,the deal and declare it as a,a truce on the,"[(9, 15)]","[(3, 6)]",1
+I think Teddy would try to get what he wants no matter what.,Teddy was like a bulldog — he would get what he wanted.,I think Teddy would try to get what he | wants no matter what,Teddy was like a bulldog — he would get what he | wanted,"[(1, 9), (10, 13)]","[(1, 11), (12, 12)]",2
+Her interest in butterflies engages her completely .,Her interest in butterflies absorbs her completely.,engages her completely,absorbs her completely,"[(5, 8)]","[(5, 7)]",1
+But their work is blocked by the fact that they don't have enough money.,But their work is hindered by lack of money .,the fact that they don't have enough money,lack of money,"[(7, 14)]","[(7, 9)]",1
+Her face flushed because she just took a sauna bath.,Her face glowed when she came out of the sauna.,flushed because she just took a sauna bath,glowed when she came out of the sauna,"[(3, 10)]","[(3, 10)]",1
+For summer and his pleasures begin on thee.,For summer and his pleasures take flight on thee.,begin on thee,take flight on thee,"[(6, 8)]","[(6, 9)]",1
+The politician defeated his rival.,The politician chopped down his rival.,defeated his rival,chopped down his rival,"[(3, 5)]","[(3, 6)]",1
+The entire memory of this event is engraved forever in her mind.,The event carved  itself into her memory.,is engraved forever in her,carved itself into her memory,"[(7, 11)]","[(3, 7)]",1
+Began the evening 's dusk and coolness.,"Fell  the evening 's dusk and coolness ,",Began,Fell,"[(1, 1)]","[(1, 1)]",1
+"‘ I think she 'd do better to understand herself , ' Ellen said in a harsh sarcastic tone.","‘ I think she 'd do better to understand herself , ’ Ellen said tartly .",in a harsh sarcastic tone,tartly,"[(15, 19)]","[(15, 16)]",1
+The steering of my new car is sensitive to the slightest touch.,The steering of my new car answers to the slightest touch.,is sensitive to the slightest touch,answers to the slightest touch,"[(7, 12)]","[(7, 11)]",1
+Seems to be awake and very alert could of got up.,Seems to be wide awake could of got up.,awake and very alert could of got up,wide awake could of got up,"[(4, 11)]","[(4, 9)]",1
+The latest intelligence is communicated quickly to all command posts.,The latest intelligence is flashed to all command posts.,communicated quickly to all command posts,flashed to all command posts,"[(5, 10)]","[(5, 9)]",1
+Occupy the fiery brains of young men ?,Fill  the fiery brains of young men ?,Occupy the fiery brains,Fill the fiery brains,"[(1, 4)]","[(1, 4)]",1
+"Since finances are restricted by economics, how can we become part of global economy?",How can we build a ’Global economy’ if finance is handcuffed?,Since finances are restricted by economics,build a ’Global economy’ if finance is handcuffed,"[(1, 6)]","[(4, 11)]",1
+The gun sprang back into my shoulder.,The gun kicked back into my shoulder.,sprang back into my shoulder,kicked back into my shoulder,"[(3, 7)]","[(3, 7)]",1
+Their language is written in such a way that it makes you believe them.,Their language broadcasts us to believe them.,is written in such a way that it makes you believe them,broadcasts us to believe them,"[(3, 14)]","[(3, 7)]",1
+Her joy was overwhelming and intense.,Her joy was blinding.,overwhelming and intense,blinding,"[(4, 6)]","[(4, 4)]",1
+Which horse are you betting on for the race?,Which horse are you wagering on.,betting on for the race,wagering on,"[(5, 9)]","[(5, 6)]",1
+The mother pays close attention to in every word of her son on the stage.,The mother drinks in every word of her son on the stage.,pays close attention to in every word of her son on the stage,drinks in every word of her son on the stage,"[(3, 15)]","[(3, 12)]",1
+Four of the absentees suffered the continuous discomfort of being among the Welsh squad .,Four of the absentees suffered the squirming discomfort of being among the Welsh squad .,the continuous discomfort of being among the Welsh squad,the squirming discomfort of being among the Welsh squad,"[(6, 14)]","[(6, 14)]",1
+"they were speaking while the night was just departing,","While they spake , the night  departed  :.",were speaking,spake,"[(2, 3)]","[(3, 3)]",1
+She never stops talking so it is pretty difficult to understand what she says.,She babbles a lot of nonsense.,never stops talking so it is pretty difficult to understand what she,babbles a lot of nonsense,"[(2, 13)]","[(2, 6)]",1
+I was looking at the sun so intensely that it was reflecting bright light back in my eyes.,I was staring straight into the shining sun.,reflecting bright light back in my eyes,staring straight into the shining sun,"[(12, 18)]","[(3, 8)]",1
+They created a shudder through my being still.,They sent a shudder through my being still.,created a shudder through my being still,sent a shudder through my being still,"[(2, 8)]","[(2, 8)]",1
+Their desire was very intense and it was palpable.,They were burning with desire.,was very intense and it was palpable,They were burning with desire,"[(3, 9)]","[(1, 5)]",1
+His playing classify him as a Romantic.,His playing erected him as a Romantic.,classify him as a Romantic,erected him as a Romantic,"[(3, 7)]","[(3, 7)]",1
+The rooms in the house are very close to each other and almost seem that they are connected.,The rooms communicated.,the house are very close to each other and almost seem that they are connected,communicated,"[(4, 18)]","[(3, 3)]",1
+You speak in a charming and effective way but I am not convinced.,Your words surround me but I will not surrender.,You speak in a charming and effective way,Your words surround me,"[(1, 8)]","[(1, 4)]",1
+The overload of information totally makes me feel overwhelmed.,I cannot digest all this information.,totally makes me feel overwhelmed,I cannot digest all this information,"[(5, 9)]","[(1, 6)]",1
+It was a struggle for me to complete the work.,I waded through the work.,It was a struggle for me to complete the work,I waded through the work,"[(1, 10)]","[(1, 5)]",1
+Impose a responsibility on someone.,Lay a responsibility on someone.,Impose a responsibility,Lay a responsibility,"[(1, 3)]","[(1, 3)]",1
+All the men were made kinder and gentler.,All the hearts of men were  softened.,the men were made kinder and gentler,the hearts of men were softened,"[(2, 8)]","[(2, 7)]",1
+Tears had rolled down my eyes and my face was red.,My eyes welled up and I could feel my face turning red.,Tears had rolled down my eyes,I could feel my face,"[(1, 6)]","[(6, 10)]",1
+The drought has made the water level at the reservoir really really low.,The lack of rain had depressed the water level in the reservoir.,The drought has made the water level | at the reservoir really really low,The lack of rain had depressed the water level | in the reservoir,"[(1, 7), (8, 13)]","[(1, 9), (10, 12)]",2
+The dollar will soon be devalued by inflation.,The dollar has been dried by inflation.,will soon be devalued by inflation,has been dried by inflation,"[(3, 8)]","[(3, 7)]",1
+The company fired him after many years of service.,The company released him after many years of service.,fired him after many years of service,released him after many years of service,"[(3, 9)]","[(3, 9)]",1
+The smell of smoke always settles in this delinquent's house.,The smell of smoke rested on the delinquent.,always settles in this delinquent's house,rested on the delinquent,"[(5, 10)]","[(5, 8)]",1
+The sight of the abandoned boat on waves is really sad.,"Floating on the waves we saw the abandoned boat, a dark sight indeed.",The sight of the abandoned boat | on waves is really sad,Floating on the waves we saw the abandoned boat | a dark sight indeed,"[(1, 6), (7, 11)]","[(1, 9), (10, 13)]",2
+They searched thorougly through the job candidates.,They scoured through the job candidates.,searched thorougly through the job candidates,scoured through the job candidates,"[(2, 7)]","[(2, 6)]",1
+Jane knew there was potential for conflict when the conversations about the assignments began.,Jane knew these dicsussions were the seeds of a potential conflict.,there was potential,these dicsussions were the,"[(3, 5)]","[(3, 6)]",1
+She brought happiness and joy into my life.,She was the light of my life.,brought happiness and joy into my life,was the light of my life,"[(2, 8)]","[(2, 7)]",1
+He held the knowledge or beliefs of his tribe.,He embraced the knowledge or beliefs of his tribe.,held the knowledge,embraced the knowledge,"[(2, 4)]","[(2, 4)]",1
+I was overwhelmed with work with too much to do.,I was swamped with work.,overwhelmed with work with too much to do,swamped with work,"[(3, 10)]","[(3, 5)]",1
+The flowers move to all directions under the powerful wind.,The flowers danced in the wind.,move to all directions under the powerful wind,danced in the wind,"[(3, 10)]","[(3, 6)]",1
+She experienced a euphoric feeling.,Then a colorful joy exploded in her chest.,She experienced a,a colorful joy exploded in her chest,"[(1, 3)]","[(2, 8)]",1
+It was really crazy when people started running out of the theater.,People were streaming out of the theater.,It was really crazy when people,were streaming out,"[(1, 6)]","[(2, 4)]",1
+Are you not listening to me?,Am I talking to a brick wall?,Are you not listening,Am I talking,"[(1, 4)]","[(1, 3)]",1
+Death has come at the door.,Death is knocking at the door.,has come at the door,is knocking at the door,"[(2, 6)]","[(2, 6)]",1
+A fun time was ruined as soon as she left the party.,The party died as soon as she left.,A fun time was ruined,The party died,"[(1, 5)]","[(1, 3)]",1
+These rivers come from a mountain range in the himalayas.,These rivers head from a mountain range in the himalayas.,come from a mountain range in the himalayas,head from a mountain range in the himalayas,"[(3, 10)]","[(3, 10)]",1
+He hated to see or experience failure.,He hated the stench of failure.,to see or experience failure,the stench of failure,"[(3, 7)]","[(3, 6)]",1
+The avalanche destroyed anything in its path like a bulldozer.,The avalanche torpedoed anything standing in its way.,destroyed anything in its path like a bulldozer,torpedoed anything standing in its way,"[(3, 10)]","[(3, 8)]",1
+people are passing by and lamps hanging along the streets cast light on their faces.,The great gold apples of light hang from the street’s long bough dripping their light on the faces that drift below.,people are passing by and lamps hanging along the,the street’s long bough dripping their light,"[(1, 9)]","[(9, 15)]",1
+He has to pay for all the repairs because of an accident.,He absorbed the costs for the accident.,the repairs because of an accident,absorbed the costs for the accident,"[(7, 12)]","[(2, 7)]",1
+He had a hard time navigating his way through the new city.,The new city was a maze for him.,He had a hard time navigating his way,a maze for him,"[(1, 8)]","[(5, 8)]",1
+I would not do something as unsavory as reading other people's mail.,I won't bow to reading other people's mail.,would not do something as unsavory as reading other people's mail,won't bow to reading other people's mail,"[(2, 12)]","[(2, 8)]",1
+Adam closed the front door and stood there for a moment as if he could not pull himself away .,Adam closed the front door and stood there for a moment as if he could not wrench himself away .,pull himself away,wrench himself away,"[(17, 19)]","[(17, 19)]",1
+This extremely expensive bordeaux wine should be allowed to oxidize and open up for 2 hours at least.,This rare bordeaux must be allowed to breathe for at least 2 hours.,This extremely expensive bordeaux wine should be allowed to | oxidize and open up for 2 hours at least,This rare bordeaux must be allowed to | breathe for at least 2 hours,"[(1, 9), (10, 18)]","[(1, 7), (8, 13)]",2
+He felt a sudden intense pain through his leg.,He felt a sudden red pain through his leg.,intense pain through his leg,red pain through his leg,"[(5, 9)]","[(5, 9)]",1
+She doesn't mind blabbering useless things.,She spews a lot of nonsense.,doesn't mind blabbering useless things,spews a lot of nonsense,"[(2, 6)]","[(2, 6)]",1
+Stock prices are increasing everyday.,Stock prices are rocketing higher.,increasing everyday,rocketing higher,"[(4, 5)]","[(4, 5)]",1
+I knew the moment had arrived when the silence became too much to bear.,"Silence was crushing, I knew the moment had arrived.",when the silence became too much to bear,Silence was crushing,"[(7, 14)]","[(1, 3)]",1
+My heart beats when he enters the room.,My heart sings when he walks in the room.,beats when he enters the room,sings when he walks in the room,"[(3, 8)]","[(3, 9)]",1
+"Here, I told the truth but was wrongfully accused .","And truth exalted, and righted wrong.","Here, I told the truth","exalted, and righted wrong","[(1, 5)]","[(3, 6)]",1
+The hidden sun will once again emerge from the dark.,The hidden sun unfurls with light.,will once again emerge from the dark,unfurls with light,"[(4, 10)]","[(4, 6)]",1
+Experiencing great joy was Mudjekeewis.,Filled  with joy was Mudjekeewis.,Experiencing great joy was Mudjekeewis,Filled with joy was Mudjekeewis,"[(1, 5)]","[(1, 5)]",1
+Slowly his sense and strength increased.,Slowly his sense and strength grew.,increased,grew,"[(6, 6)]","[(6, 6)]",1
+His voice transmitted up the house.,His voice filled up the house.,transmitted up the house,filled up the house,"[(3, 6)]","[(3, 6)]",1
+Krishna gets up very early in the morning.,Krishna is an early bird.,gets up very early in the morning,is an early bird,"[(2, 8)]","[(2, 5)]",1
+The faculty meeting was very bad.,The faculty meeting was a tragedy.,very bad,a tragedy,"[(5, 6)]","[(5, 6)]",1
+ The new measures will greatly affect our economy.,The new measures transformed the economy.,will greatly affect our economy,transformed the economy,"[(4, 8)]","[(4, 6)]",1
+We must acknowledge the fact that she was kind to us.,We must embrace the kindness she showed towards us.,acknowledge the fact that she was kind to us,embrace the kindness she showed towards us,"[(3, 11)]","[(3, 9)]",1
+The boss became outrageous when he heard of the resignation of the secretary.,The boss exploded when he heard of the resignation of the secretary.,became outrageous when he heard of the resignation of the secretary,exploded when he heard of the resignation of the secretary,"[(3, 13)]","[(3, 12)]",1
+I illustrated that all his arguments were inconsistent.,I demolished his argument.,illustrated that all his arguments were inconsistent,demolished his argument,"[(2, 8)]","[(2, 4)]",1
+We must acknowledge the fact that she has always been kind to us.,We must salute the kindness she showed towards us.,has always been kind to us,showed towards us,"[(8, 13)]","[(7, 9)]",1
+A new moon rising between the trees.,The new moon swims up through the tree tops.,rising between the,swims up through the,"[(4, 6)]","[(4, 7)]",1
+"That the two theories look so similar, I can't differentiate between them.",The distinction between the two theories wilted.,"That the two theories | look so similar, I can't differentiate between them",The distinction between the two theories | wilted,"[(1, 4), (5, 12)]","[(1, 6), (7, 7)]",2
+The train horn broke the peace of mind.,The train horn fractured the peace.,broke the peace of mind,fractured the peace,"[(4, 8)]","[(4, 6)]",1
+The new moon is rising through the tree tops.,The new moon peers through the tree tops.,is rising through the tree tops,peers through the tree tops,"[(4, 9)]","[(4, 8)]",1
+Dimples formed in his cheeks.,Dimples nestled in his cheeks.,formed in his cheeks,nestled in his cheeks,"[(2, 5)]","[(2, 5)]",1
+She is a cruel human being and her attitude was really mean and rude.,She had a heart of stone.,a cruel human being and her attitude was really mean and rude,a heart of stone,"[(3, 14)]","[(3, 6)]",1
+Her fear was so terrifying that it was blocking her mind.,Fear choked her mind.,was so terrifying that it was blocking her mind,choked her mind,"[(3, 11)]","[(2, 4)]",1
+"After many years of loyal service, the company fired him.",The company dumped him after many years of service.,"loyal service, the company fired him",The company dumped him,"[(5, 10)]","[(1, 4)]",1
+Sunset takes place in the evening.,From its blue vase the rose of evening drops.,Sunset takes place in the evening,From its blue vase the,"[(1, 6)]","[(1, 5)]",1
+Don't mention Tom's promotion to Mike as Mike is going to feel pissed about it.,Don't mention Tom 's promotion to Mike as it would be a red flag to a bull.,Tom's promotion to Mike as | Mike is going to feel pissed about it,Tom 's promotion to Mike as | it would be a red flag to a bull,"[(3, 7), (8, 15)]","[(3, 8), (9, 17)]",2
+"Even if a car is old, such as the 1980 Toyota Corolla or 1982 Nissan Sunny, it won't rust because of technological innovation.","Find a 1980 Toyota Corolla or 1982 Nissan Sunny that has not succumbed to rust , and you can buy with confidence .","Even if a car is old, such as the 1980 Toyota Corolla | it won't rust because of technological innovation","Find a 1980 Toyota Corolla | that has not succumbed to rust , and you can buy with confidence","[(1, 12), (17, 23)]","[(1, 5), (10, 23)]",2
+Her bones are chilled by the cold.,The cold hollows her bones.,are chilled by the cold,hollows her bones,"[(3, 7)]","[(3, 5)]",1
+The candle flame twisted in the dark.,The candle flame twirled in the dark.,twisted in the dark,twirled in the dark,"[(4, 7)]","[(4, 7)]",1
+Till it pulled itself together.,"Till it drew itself together ,",pulled itself together,drew itself together,"[(3, 5)]","[(3, 6)]",1
+Consumed by the thoughts that were in the head,Consumed by the thoughts that grew in the head.,that were in the head,that grew in the head,"[(5, 9)]","[(5, 9)]",1
+He was stricken with a terrible illness that killed him so fast he had no chance to do anything.,He was gripped with a terrible illness that killed him quickly.,stricken with a terrible illness that killed him | so fast he had no chance to do anything,gripped with a terrible illness that killed him | quickly,"[(3, 10), (11, 19)]","[(3, 10), (11, 11)]",2
+The Star tops the Christmas tree during Christmas.,A star crowns the Christmas Tree.,during Christmas,A star crowns,"[(7, 8)]","[(1, 3)]",1
+The little raindrops falling together stick upon my coat.,The little raindrops collapsing together stick upon my coat.,falling together stick upon my coat,collapsing together stick upon my coat,"[(4, 9)]","[(4, 9)]",1
