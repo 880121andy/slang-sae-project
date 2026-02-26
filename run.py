@@ -18,6 +18,22 @@ so it should be processed primarily in deep layers (>66% depth).
 # 1. IMPORTS AND SETUP
 # =============================================================================
 
+from sae_lens import SAE
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from datetime import datetime
+import warnings
+import re
+import ast
+import gc
+import json
+from difflib import SequenceMatcher
+from tqdm.auto import tqdm
+from dataclasses import dataclass
+from typing import Dict, List, Tuple, Optional, Any
+from collections import defaultdict
+from scipy import stats
+import seaborn as sns
+import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -37,32 +53,17 @@ if not HF_TOKEN:
 
 if os.environ.get('DISPLAY') is None and os.name != 'nt':
     matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
-from collections import defaultdict
-from typing import Dict, List, Tuple, Optional, Any
-from dataclasses import dataclass
-from tqdm.auto import tqdm
-from difflib import SequenceMatcher
-import json
-import gc
-import ast
-import re
-import warnings
-from datetime import datetime
 
 warnings.filterwarnings('ignore')
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from sae_lens import SAE
 
 # Check GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
 if torch.cuda.is_available():
     print(f"GPU: {torch.cuda.get_device_name(0)}")
-    print(f"Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
+    print(f"Memory: {torch.cuda.get_device_properties(
+        0).total_memory / 1e9:.2f} GB")
 
 
 # =============================================================================
@@ -81,7 +82,8 @@ class SlangPairWithPosition:
     """A slang sentence and its literal equivalent with token positions"""
     slang_text: str
     literal_text: str
-    slang_positions: List[Tuple[int, int]]  # List of (start, end) word positions
+    # List of (start, end) word positions
+    slang_positions: List[Tuple[int, int]]
     literal_positions: List[Tuple[int, int]]
     slang_segments: str  # The actual slang words/phrases
     literal_segments: str  # The literal equivalents
@@ -133,6 +135,48 @@ def load_neologism_pairs(df: pd.DataFrame) -> List[SlangPairWithPosition]:
     return pairs
 
 
+def load_metaphor_pairs(df: pd.DataFrame) -> List[SlangPairWithPosition]:
+    """Load metaphor dataset with position tags"""
+    pairs = []
+    for _, row in df.iterrows():
+        try:
+            metaphor_pos = ast.literal_eval(row['metaphor_positions'])
+            literal_pos = ast.literal_eval(row['literal_positions'])
+
+            pairs.append(SlangPairWithPosition(
+                slang_text=str(row['metaphorical']),
+                literal_text=str(row['normal']),
+                slang_positions=metaphor_pos,
+                literal_positions=literal_pos,
+                slang_segments=str(row.get('metaphor_segments', '')),
+                literal_segments=str(row.get('literal_segments', ''))
+            ))
+        except Exception as e:
+            continue
+    return pairs
+
+
+def load_idiom_pairs(df: pd.DataFrame) -> List[SlangPairWithPosition]:
+    """Load idiom dataset with position tags"""
+    pairs = []
+    for _, row in df.iterrows():
+        try:
+            idiom_pos = ast.literal_eval(row['idiom_positions'])
+            literal_pos = ast.literal_eval(row['literal_positions'])
+
+            pairs.append(SlangPairWithPosition(
+                slang_text=str(row['idiomatic']),
+                literal_text=str(row['normal']),
+                slang_positions=idiom_pos,
+                literal_positions=literal_pos,
+                slang_segments=str(row.get('idiom_segments', '')),
+                literal_segments=str(row.get('literal_segments', ''))
+            ))
+        except Exception as e:
+            continue
+    return pairs
+
+
 def load_construction_pairs(df: pd.DataFrame) -> List[SlangPairWithPosition]:
     """Load constructions dataset with position tags"""
     pairs = []
@@ -146,7 +190,8 @@ def load_construction_pairs(df: pd.DataFrame) -> List[SlangPairWithPosition]:
                 literal_text=str(row['normal']),
                 slang_positions=slang_pos,
                 literal_positions=literal_pos,
-                slang_segments=str(row.get('slang_in_sentence', row.get('construction', ''))),
+                slang_segments=str(
+                    row.get('slang_in_sentence', row.get('construction', ''))),
                 literal_segments=str(row.get('literal_replacement', ''))
             ))
         except Exception as e:
@@ -193,7 +238,8 @@ def load_model(model_id: str = "google/gemma-3-12b-it"):
     print(f"  Layers: {num_layers}")
     print(f"  Hidden size: {hidden_size}")
     if torch.cuda.is_available():
-        print(f"  GPU memory used: {torch.cuda.memory_allocated() / 1e9:.2f} GB")
+        print(f"  GPU memory used: {
+              torch.cuda.memory_allocated() / 1e9:.2f} GB")
 
     return model, tokenizer, num_layers, hidden_size
 
@@ -306,7 +352,8 @@ def word_to_token_position(text: str, word_positions: List[Tuple[int, int]], tok
         word_spans.append((start, end))
         current_char = end
 
-    encoding = tokenizer(text, return_offsets_mapping=True, add_special_tokens=True)
+    encoding = tokenizer(text, return_offsets_mapping=True,
+                         add_special_tokens=True)
     offsets = encoding['offset_mapping']
 
     target_token_indices = set()
@@ -377,7 +424,8 @@ def extract_sae_features(
     """
     layers = list(saes.keys())
 
-    inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+    inputs = tokenizer(text, return_tensors="pt",
+                       truncation=True, max_length=512)
     inputs = {k: v.to(device) for k, v in inputs.items()}
 
     cache = ActivationCache(model)
@@ -461,7 +509,8 @@ def analyze_pairs_single_layer_token_level(
     for pair in tqdm(pairs, desc=f"Layer {layer}"):
         try:
             # === SLANG SENTENCE ===
-            slang_inputs = tokenizer(pair.slang_text, return_tensors="pt", truncation=True, max_length=512)
+            slang_inputs = tokenizer(
+                pair.slang_text, return_tensors="pt", truncation=True, max_length=512)
             slang_inputs = {k: v.to(device) for k, v in slang_inputs.items()}
             seq_len_slang = slang_inputs['input_ids'].shape[1]
 
@@ -473,24 +522,30 @@ def analyze_pairs_single_layer_token_level(
             cache.clear()
 
             if pooling == "first_diff":
-                slang_pos = get_first_diff_token_position(pair.slang_text, pair.slang_positions, tokenizer)
+                slang_pos = get_first_diff_token_position(
+                    pair.slang_text, pair.slang_positions, tokenizer)
                 slang_pos = min(slang_pos, seq_len_slang - 1)
                 slang_acts = slang_acts_full[slang_pos]
             elif pooling == "all_diff":
-                token_indices = word_to_token_position(pair.slang_text, pair.slang_positions, tokenizer)
+                token_indices = word_to_token_position(
+                    pair.slang_text, pair.slang_positions, tokenizer)
                 if token_indices:
-                    token_indices = [min(t, seq_len_slang - 1) for t in token_indices]
+                    token_indices = [min(t, seq_len_slang - 1)
+                                     for t in token_indices]
                     slang_acts = slang_acts_full[token_indices].mean(dim=0)
                 else:
                     slang_acts = slang_acts_full[-1]
             else:
                 slang_acts = slang_acts_full[-1]
 
-            sf = sae.encode(slang_acts.unsqueeze(0).to(sae.W_enc.dtype)).squeeze(0).cpu()
+            sf = sae.encode(slang_acts.unsqueeze(0).to(
+                sae.W_enc.dtype)).squeeze(0).cpu()
 
             # === LITERAL SENTENCE ===
-            literal_inputs = tokenizer(pair.literal_text, return_tensors="pt", truncation=True, max_length=512)
-            literal_inputs = {k: v.to(device) for k, v in literal_inputs.items()}
+            literal_inputs = tokenizer(
+                pair.literal_text, return_tensors="pt", truncation=True, max_length=512)
+            literal_inputs = {k: v.to(device)
+                              for k, v in literal_inputs.items()}
             seq_len_literal = literal_inputs['input_ids'].shape[1]
 
             cache = ActivationCache(model)
@@ -501,36 +556,45 @@ def analyze_pairs_single_layer_token_level(
             cache.clear()
 
             if pooling == "first_diff":
-                literal_pos = get_first_diff_token_position(pair.literal_text, pair.literal_positions, tokenizer)
+                literal_pos = get_first_diff_token_position(
+                    pair.literal_text, pair.literal_positions, tokenizer)
                 literal_pos = min(literal_pos, seq_len_literal - 1)
                 literal_acts = literal_acts_full[literal_pos]
             elif pooling == "all_diff":
-                token_indices = word_to_token_position(pair.literal_text, pair.literal_positions, tokenizer)
+                token_indices = word_to_token_position(
+                    pair.literal_text, pair.literal_positions, tokenizer)
                 if token_indices:
-                    token_indices = [min(t, seq_len_literal - 1) for t in token_indices]
+                    token_indices = [min(t, seq_len_literal - 1)
+                                     for t in token_indices]
                     literal_acts = literal_acts_full[token_indices].mean(dim=0)
                 else:
                     literal_acts = literal_acts_full[-1]
             else:
                 literal_acts = literal_acts_full[-1]
 
-            lf = sae.encode(literal_acts.unsqueeze(0).to(sae.W_enc.dtype)).squeeze(0).cpu()
+            lf = sae.encode(literal_acts.unsqueeze(
+                0).to(sae.W_enc.dtype)).squeeze(0).cpu()
 
             # === COMPUTE METRICS ===
             metrics['l1_dist'].append(torch.norm(sf - lf, p=1).item())
             metrics['l2_dist'].append(torch.norm(sf - lf, p=2).item())
 
             if sf.norm() > 0 and lf.norm() > 0:
-                cos = 1 - F.cosine_similarity(sf.unsqueeze(0), lf.unsqueeze(0)).item()
+                cos = 1 - \
+                    F.cosine_similarity(sf.unsqueeze(
+                        0), lf.unsqueeze(0)).item()
             else:
                 cos = 1.0
             metrics['cosine_dist'].append(cos)
 
             slang_active = sf > 0
             literal_active = lf > 0
-            metrics['slang_only_features'].append((slang_active & ~literal_active).sum().item())
-            metrics['literal_only_features'].append((~slang_active & literal_active).sum().item())
-            metrics['shared_features'].append((slang_active & literal_active).sum().item())
+            metrics['slang_only_features'].append(
+                (slang_active & ~literal_active).sum().item())
+            metrics['literal_only_features'].append(
+                (~slang_active & literal_active).sum().item())
+            metrics['shared_features'].append(
+                (slang_active & literal_active).sum().item())
             metrics['slang_active'].append(slang_active.sum().item())
             metrics['literal_active'].append(literal_active.sum().item())
 
@@ -588,7 +652,8 @@ def analyze_all_layers_sequential_token_level(
 
         if (layer + 1) % 10 == 0:
             checkpoint_df = pd.concat(all_results, ignore_index=True)
-            checkpoint_path = f'{checkpoint_dir}/checkpoint_token_level_layer_{layer+1}.csv'
+            checkpoint_path = f'{
+                checkpoint_dir}/checkpoint_token_level_layer_{layer+1}.csv'
             checkpoint_df.to_csv(checkpoint_path, index=False)
             print(f"  Checkpoint saved: {checkpoint_path}")
 
@@ -630,7 +695,8 @@ def analyze_pairs_single_layer(
 
     for pair in tqdm(pairs, desc=f"Layer {layer}"):
         try:
-            inputs = tokenizer(pair.slang_text, return_tensors="pt", truncation=True, max_length=512)
+            inputs = tokenizer(
+                pair.slang_text, return_tensors="pt", truncation=True, max_length=512)
             inputs = {k: v.to(device) for k, v in inputs.items()}
 
             cache = ActivationCache(model)
@@ -638,10 +704,12 @@ def analyze_pairs_single_layer(
             with torch.no_grad():
                 model(**inputs)
             slang_acts = cache.get()[layer].squeeze(0)[-1]
-            sf = sae.encode(slang_acts.unsqueeze(0).to(sae.W_enc.dtype)).squeeze(0).cpu()
+            sf = sae.encode(slang_acts.unsqueeze(0).to(
+                sae.W_enc.dtype)).squeeze(0).cpu()
             cache.clear()
 
-            inputs = tokenizer(pair.literal_text, return_tensors="pt", truncation=True, max_length=512)
+            inputs = tokenizer(
+                pair.literal_text, return_tensors="pt", truncation=True, max_length=512)
             inputs = {k: v.to(device) for k, v in inputs.items()}
 
             cache = ActivationCache(model)
@@ -649,23 +717,29 @@ def analyze_pairs_single_layer(
             with torch.no_grad():
                 model(**inputs)
             literal_acts = cache.get()[layer].squeeze(0)[-1]
-            lf = sae.encode(literal_acts.unsqueeze(0).to(sae.W_enc.dtype)).squeeze(0).cpu()
+            lf = sae.encode(literal_acts.unsqueeze(
+                0).to(sae.W_enc.dtype)).squeeze(0).cpu()
             cache.clear()
 
             metrics['l1_dist'].append(torch.norm(sf - lf, p=1).item())
             metrics['l2_dist'].append(torch.norm(sf - lf, p=2).item())
 
             if sf.norm() > 0 and lf.norm() > 0:
-                cos = 1 - F.cosine_similarity(sf.unsqueeze(0), lf.unsqueeze(0)).item()
+                cos = 1 - \
+                    F.cosine_similarity(sf.unsqueeze(
+                        0), lf.unsqueeze(0)).item()
             else:
                 cos = 1.0
             metrics['cosine_dist'].append(cos)
 
             slang_active = sf > 0
             literal_active = lf > 0
-            metrics['slang_only_features'].append((slang_active & ~literal_active).sum().item())
-            metrics['literal_only_features'].append((~slang_active & literal_active).sum().item())
-            metrics['shared_features'].append((slang_active & literal_active).sum().item())
+            metrics['slang_only_features'].append(
+                (slang_active & ~literal_active).sum().item())
+            metrics['literal_only_features'].append(
+                (~slang_active & literal_active).sum().item())
+            metrics['shared_features'].append(
+                (slang_active & literal_active).sum().item())
             metrics['slang_active'].append(slang_active.sum().item())
             metrics['literal_active'].append(literal_active.sum().item())
 
@@ -716,7 +790,8 @@ def analyze_all_layers_sequential(
 
         if (layer + 1) % 10 == 0:
             checkpoint_df = pd.concat(all_results, ignore_index=True)
-            checkpoint_path = f'{checkpoint_dir}/checkpoint_layer_{layer+1}.csv'
+            checkpoint_path = f'{
+                checkpoint_dir}/checkpoint_layer_{layer+1}.csv'
             checkpoint_df.to_csv(checkpoint_path, index=False)
             print(f"  Checkpoint saved: {checkpoint_path}")
 
@@ -755,16 +830,20 @@ def plot_layer_differences(df: pd.DataFrame, metric: str = 'l2_dist', title_pref
     peak = metric_df.loc[peak_idx]
     ax.axvline(x=peak['layer'], color='gray', linestyle='--', alpha=0.7)
     ax.annotate(
-        f"Peak: Layer {int(peak['layer'])} ({100*peak['layer']/(num_layers-1):.0f}% depth)",
+        f"Peak: Layer {int(peak['layer'])} ({
+            100*peak['layer']/(num_layers-1):.0f}% depth)",
         xy=(peak['layer'], peak['mean']),
         xytext=(15, 15), textcoords='offset points',
         fontsize=11, fontweight='bold',
         arrowprops=dict(arrowstyle='->', color='gray')
     )
 
-    ax.axvspan(0, num_layers*0.33, alpha=0.08, color='blue', label='Early (0-33%)')
-    ax.axvspan(num_layers*0.33, num_layers*0.66, alpha=0.08, color='green', label='Middle (33-66%)')
-    ax.axvspan(num_layers*0.66, num_layers, alpha=0.08, color='red', label='Deep (66-100%)')
+    ax.axvspan(0, num_layers*0.33, alpha=0.08,
+               color='blue', label='Early (0-33%)')
+    ax.axvspan(num_layers*0.33, num_layers*0.66, alpha=0.08,
+               color='green', label='Middle (33-66%)')
+    ax.axvspan(num_layers*0.66, num_layers, alpha=0.08,
+               color='red', label='Deep (66-100%)')
 
     ax.set_xlabel('Layer', fontsize=14)
     ax.set_ylabel(f'{metric.replace("_", " ").title()}', fontsize=14)
@@ -794,8 +873,10 @@ def plot_all_metrics(df: pd.DataFrame, save_path: str = None):
     """Plot multiple metrics side by side"""
 
     fig, axes = plt.subplots(2, 2, figsize=(16, 10))
-    metrics = ['l2_dist', 'cosine_dist', 'slang_only_features', 'literal_only_features']
-    titles = ['L2 Distance', 'Cosine Distance', 'Slang-Only Features', 'Literal-Only Features']
+    metrics = ['l2_dist', 'cosine_dist',
+               'slang_only_features', 'literal_only_features']
+    titles = ['L2 Distance', 'Cosine Distance',
+              'Slang-Only Features', 'Literal-Only Features']
     colors = ['#e74c3c', '#3498db', '#2ecc71', '#9b59b6']
 
     for ax, metric, title, color in zip(axes.flat, metrics, titles, colors):
@@ -825,7 +906,8 @@ def plot_all_metrics(df: pd.DataFrame, save_path: str = None):
         ax.set_xlabel('Layer')
         ax.grid(True, alpha=0.3)
 
-    plt.suptitle('TOKEN-LEVEL SAE Feature Analysis', fontsize=16, fontweight='bold', y=1.02)
+    plt.suptitle('TOKEN-LEVEL SAE Feature Analysis',
+                 fontsize=16, fontweight='bold', y=1.02)
     plt.tight_layout()
     if save_path:
         plt.savefig(save_path, dpi=150, bbox_inches='tight')
@@ -850,13 +932,17 @@ def plot_feature_activation_comparison(df: pd.DataFrame, save_path: str = None):
         print("No activation data available")
         return
 
-    ax.plot(slang_df['layer'], slang_df['mean'], 'o-', label='Slang Active', linewidth=2, markersize=4)
-    ax.plot(literal_df['layer'], literal_df['mean'], 's-', label='Literal Active', linewidth=2, markersize=4)
-    ax.plot(shared_df['layer'], shared_df['mean'], '^-', label='Shared', linewidth=2, markersize=4)
+    ax.plot(slang_df['layer'], slang_df['mean'], 'o-',
+            label='Slang Active', linewidth=2, markersize=4)
+    ax.plot(literal_df['layer'], literal_df['mean'], 's-',
+            label='Literal Active', linewidth=2, markersize=4)
+    ax.plot(shared_df['layer'], shared_df['mean'], '^-',
+            label='Shared', linewidth=2, markersize=4)
 
     ax.set_xlabel('Layer', fontsize=14)
     ax.set_ylabel('Mean # Active Features', fontsize=14)
-    ax.set_title('Feature Activation Patterns: Slang vs Literal\nacross Layers', fontsize=16, fontweight='bold')
+    ax.set_title('Feature Activation Patterns: Slang vs Literal\nacross Layers',
+                 fontsize=16, fontweight='bold')
     ax.legend()
     ax.grid(True, alpha=0.3)
 
@@ -931,7 +1017,8 @@ def analyze_results(df: pd.DataFrame, metric: str = 'l2_dist'):
     print(f"  Middle (layers {early_end}-{middle_end-1}):   {middle_mean:.4f}")
     print(f"  Deep   (layers {middle_end}-{num_layers-1}):   {deep_mean:.4f}")
 
-    region_means = {'Early': early_mean, 'Middle': middle_mean, 'Deep': deep_mean}
+    region_means = {'Early': early_mean,
+                    'Middle': middle_mean, 'Deep': deep_mean}
     max_region = max(region_means, key=region_means.get)
     print(f"\n  -> Highest mean in: {max_region} layers")
 
@@ -965,9 +1052,12 @@ def analyze_results(df: pd.DataFrame, metric: str = 'l2_dist'):
         t_ed, p_ed = stats.ttest_ind(early_vals, deep_vals)
 
         print(f"\nPairwise t-tests:")
-        print(f"  Early vs Middle:  t={t_em:.2f}, p={p_em:.4f} {'*' if p_em < 0.05 else ''}")
-        print(f"  Middle vs Deep:   t={t_md:.2f}, p={p_md:.4f} {'*' if p_md < 0.05 else ''}")
-        print(f"  Early vs Deep:    t={t_ed:.2f}, p={p_ed:.4f} {'*' if p_ed < 0.05 else ''}")
+        print(f"  Early vs Middle:  t={t_em:.2f}, p={
+              p_em:.4f} {'*' if p_em < 0.05 else ''}")
+        print(f"  Middle vs Deep:   t={t_md:.2f}, p={
+              p_md:.4f} {'*' if p_md < 0.05 else ''}")
+        print(f"  Early vs Deep:    t={t_ed:.2f}, p={
+              p_ed:.4f} {'*' if p_ed < 0.05 else ''}")
 
     print(f"\n{'=' * 70}")
     print("HYPOTHESIS VALIDATION")
@@ -1011,7 +1101,8 @@ def quick_test_token_positions(pairs: List[SlangPairWithPosition], tokenizer, n:
 
         print(f"Slang segments: {pair.slang_segments}")
 
-        slang_indices = word_to_token_position(pair.slang_text, pair.slang_positions, tokenizer)
+        slang_indices = word_to_token_position(
+            pair.slang_text, pair.slang_positions, tokenizer)
 
         s_ids = tokenizer(pair.slang_text, return_tensors="pt")['input_ids'][0]
         valid_s_indices = [idx for idx in slang_indices if idx < len(s_ids)]
@@ -1022,11 +1113,14 @@ def quick_test_token_positions(pairs: List[SlangPairWithPosition], tokenizer, n:
 
         print(f"Literal segments: {pair.literal_segments}")
 
-        literal_indices = word_to_token_position(pair.literal_text, pair.literal_positions, tokenizer)
+        literal_indices = word_to_token_position(
+            pair.literal_text, pair.literal_positions, tokenizer)
 
-        l_ids = tokenizer(pair.literal_text, return_tensors="pt")['input_ids'][0]
+        l_ids = tokenizer(pair.literal_text, return_tensors="pt")[
+            'input_ids'][0]
         valid_l_indices = [idx for idx in literal_indices if idx < len(l_ids)]
-        literal_tokens = tokenizer.convert_ids_to_tokens(l_ids[valid_l_indices])
+        literal_tokens = tokenizer.convert_ids_to_tokens(
+            l_ids[valid_l_indices])
 
         print(f"Literal tokens: {literal_tokens}")
         print(f"   (Indices: {literal_indices})")
@@ -1059,8 +1153,10 @@ class ActivationSteering:
         literal_feats = []
 
         for pair in tqdm(pairs[:n_samples], desc="Computing steering vector"):
-            sf = extract_sae_features(pair.slang_text, self.saes, self.model, self.tokenizer)[layer]
-            lf = extract_sae_features(pair.literal_text, self.saes, self.model, self.tokenizer)[layer]
+            sf = extract_sae_features(
+                pair.slang_text, self.saes, self.model, self.tokenizer)[layer]
+            lf = extract_sae_features(
+                pair.literal_text, self.saes, self.model, self.tokenizer)[layer]
             slang_feats.append(sf)
             literal_feats.append(lf)
 
@@ -1069,7 +1165,8 @@ class ActivationSteering:
         feature_diff = mean_slang - mean_literal
 
         sae = self.saes[layer]
-        self.steering_vector = sae.decode(feature_diff.unsqueeze(0).to(device)).squeeze(0)
+        self.steering_vector = sae.decode(
+            feature_diff.unsqueeze(0).to(device)).squeeze(0)
         self.target_layer = layer
 
         print(f"Steering vector computed for layer {layer}")
@@ -1081,7 +1178,8 @@ class ActivationSteering:
             h[:, -1, :] += self.strength * self.steering_vector.to(h.dtype)
             return (h,) + output[1:]
         else:
-            output[:, -1, :] += self.strength * self.steering_vector.to(output.dtype)
+            output[:, -1, :] += self.strength * \
+                self.steering_vector.to(output.dtype)
             return output
 
     def generate(self, prompt: str, strength: float = 1.0, max_tokens: int = 50) -> str:
@@ -1089,7 +1187,8 @@ class ActivationSteering:
         self.strength = strength
 
         layers = self.model.model.language_model.layers
-        self.hook = layers[self.target_layer].register_forward_hook(self._hook_fn)
+        self.hook = layers[self.target_layer].register_forward_hook(
+            self._hook_fn)
 
         inputs = self.tokenizer(prompt, return_tensors="pt").to(device)
 
@@ -1118,8 +1217,8 @@ def main():
 
     # Load dataset - choose one:
     # For semantic shift:
-    df = pd.read_csv('genz_dataset_tagged.csv')
-    pairs = load_semantic_shift_pairs(df)
+    # df = pd.read_csv('genz_dataset_tagged.csv')
+    # pairs = load_semantic_shift_pairs(df)
 
     # For neologism:
     # df = pd.read_csv('neologism_tagged.csv')
@@ -1128,6 +1227,14 @@ def main():
     # For constructions:
     # df = pd.read_csv('constructions_tagged.csv')
     # pairs = load_construction_pairs(df)
+
+    # For metaphors:
+    # df = pd.read_csv('metaphor_baseline.csv')
+    # pairs = load_metaphor_pairs(df)
+
+    # For idioms:
+    df = pd.read_csv('idiom_baseline.csv')
+    pairs = load_idiom_pairs(df)
 
     print(f"Loaded {len(pairs)} pairs")
 
@@ -1143,7 +1250,7 @@ def main():
         model,
         tokenizer,
         num_layers=NUM_LAYERS,
-        start_layer=20,
+        start_layer=0,
         width="16k",
         l0="big",
         max_pairs=None,
@@ -1158,9 +1265,11 @@ def main():
     results_df.to_csv(f'sae_token_level_results_{timestamp}.csv', index=False)
 
     # Visualize
-    peak = plot_layer_differences(results_df, 'l2_dist', save_path='sae_token_level_differences.png')
+    peak = plot_layer_differences(
+        results_df, 'l2_dist', save_path='sae_token_level_differences.png')
     plot_all_metrics(results_df, save_path='sae_token_level_all_metrics.png')
-    plot_feature_activation_comparison(results_df, save_path='feature_activation_comparison.png')
+    plot_feature_activation_comparison(
+        results_df, save_path='feature_activation_comparison.png')
 
     # Statistical analysis
     stats_results = analyze_results(results_df, 'l2_dist')
