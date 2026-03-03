@@ -3,10 +3,6 @@
 Lexical Familiarity Score Computation and Regression Analysis
 ==============================================================
 
-Addresses reviewer concerns W3 (frequency confound) and W4 (operationalization)
-by computing a continuous lexical familiarity score and testing whether it
-predicts peak divergence layer independently of category.
-
 Two proxies for lexical familiarity:
 1. Subword fragmentation index: # subword tokens / # whitespace words
    - High fragmentation = unfamiliar (tokenizer breaks it up)
@@ -273,17 +269,6 @@ def assign_peak_layers(df: pd.DataFrame) -> pd.DataFrame:
 # =============================================================================
 
 def run_regression_analysis(df: pd.DataFrame) -> Dict:
-    """
-    Run regression analyses to test whether LF_score predicts peak_layer.
-
-    Models:
-    1. peak_layer ~ category (baseline)
-    2. peak_layer ~ lf_score (familiarity only)
-    3. peak_layer ~ category + lf_score (both)
-
-    Key question: Does lf_score remain significant when category is included?
-    Does category effect weaken when lf_score is added?
-    """
     results = {}
 
     # Model 1: Category only
@@ -326,36 +311,26 @@ def run_regression_analysis(df: pd.DataFrame) -> Dict:
     print("=" * 60)
     print(f"{'Model':<30} {'R²':<10} {'AIC':<12}")
     print("-" * 52)
-    print(f"{'Category only':<30} {results['model1_r2']:.4f}    {
-          results['model1_aic']:.1f}")
-    print(f"{'LF_score only':<30} {results['model2_r2']:.4f}    {
-          results['model2_aic']:.1f}")
-    print(
-        f"{'Category + LF_score':<30} {results['model3_r2']:.4f}    {results['model3_aic']:.1f}")
+    print(f"{'Category only':<30} {results['model1_r2']:.4f}    {results['model1_aic']:.1f}")
+    print(f"{'LF_score only':<30} {results['model2_r2']:.4f}    {results['model2_aic']:.1f}")
+    print(f"{'Category + LF_score':<30} {results['model3_r2']:.4f}    {results['model3_aic']:.1f}")
 
     print("\n" + "=" * 60)
     print("KEY FINDINGS")
     print("=" * 60)
-    print(f"LF_score alone explains {
-          results['model2_r2']*100:.1f}% of variance in peak layer")
-    print(f"LF_score coefficient: {
-          results['lf_coef']:.3f} (p = {results['lf_pvalue']:.2e})")
-    print(f"  Interpretation: 1 SD increase in familiarity → {
-          abs(results['lf_coef']):.1f} layer decrease in peak")
+    print(f"LF_score alone explains {results['model2_r2']*100:.1f}% of variance in peak layer")
+    print(f"LF_score coefficient: {results['lf_coef']:.3f} (p = {results['lf_pvalue']:.2e})")
+    print(f"  Interpretation: 1 SD increase in familiarity → {abs(results['lf_coef']):.1f} layer decrease in peak")
 
     if results['lf_pvalue_with_cat'] < 0.05:
-        print(f"\n✓ LF_score REMAINS significant when controlling for category (p = {
-              results['lf_pvalue_with_cat']:.2e})")
+        print(f"\n✓ LF_score REMAINS significant when controlling for category (p = {results['lf_pvalue_with_cat']:.2e})")
     else:
-        print(f"\n✗ LF_score NOT significant when controlling for category (p = {
-              results['lf_pvalue_with_cat']:.2e})")
+        print(f"\n✗ LF_score NOT significant when controlling for category (p = {results['lf_pvalue_with_cat']:.2e})")
 
     r2_gain = results['model3_r2'] - results['model1_r2']
-    print(f"\nAdding LF_score to category model increases R² by {
-          r2_gain*100:.2f} percentage points")
+    print(f"\nAdding LF_score to category model increases R² by {r2_gain*100:.2f} percentage points")
 
     return results
-
 
 # =============================================================================
 # VISUALIZATION
@@ -613,3 +588,4 @@ If category effect weakens:
 
 if __name__ == '__main__':
     main()
+
