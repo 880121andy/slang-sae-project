@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+Category & Fragmentation & Frequency & LF Score & Peak \\
+\midrule
+Idiom & 1.20 & 86.5 & +1.28 & L1 \\
+Construction$^\dagger$ & 1.48 & 76.9 & +0.44 & L7 \\
+Metaphor & 1.36 & 75.1 & +0.45 & L8 \\
+Semantic Shift & 1.52 & 70.3 & +0.02 & L9 \\
+Neologism & 2.93 & 69.9 & -1.37 & L41 \\
+\midrule
+\multicolumn{5}{l}{Regression: peak layer $\sim$ LF score, $r^2 = 0.342$, $p < .001$} \\
+\bottomrule
+\end{tabular}
+\caption{Lexical familiarity metrics by category. Fragmentation = subword tokens per word; Frequency = token frequency percentile; LF Score = combined z-score (higher = more familiar).}
+\label{tab:lf-scores}
+\end{table}
